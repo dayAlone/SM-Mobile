@@ -132,4 +132,4 @@ module.exports = (grunt)->
 
 	grunt.registerTask 'default', ['watch']
 
-	grunt.registerTask 'compress', ['copy', 'imagemin', 'stylus', 'coffee', 'concat', 'csscomb', 'cssmin', 'uglify']
+	grunt.registerTask 'compile', ['copy', 'imagemin', 'stylus', 'coffee', 'concat', 'csscomb', 'cssmin', 'uglify']
