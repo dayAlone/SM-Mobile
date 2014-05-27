@@ -30,6 +30,33 @@ module.exports = (grunt)->
 							'<%= path.sources %>/js/script.js'
 						]
 
+		# Настройка уведомлений
+		notify_hooks: 
+			options:
+				enabled: true
+				max_jshint_notifications: 5
+		notify:
+			css:
+				options:
+					title: 'CSS Compile Complete'
+					message: 'Stylus, CSS Comb, CSS Min, Autoprefixee & Concat finished running'
+			js:
+				options:
+					title: 'JavaScript Compile Complete'
+					message: 'CoffeScript, Concat & Uglify finished running'
+			img:
+				options:
+					title: 'Images Compile Complete'
+					message: 'ImageMin finished running'
+			svg:
+				options:
+					title: 'SVG Files Compile Complete'
+					message: 'SVGMin finished running'
+			html:
+				options:
+					title: 'HTMLs Compile Complete'
+					message: 'Jade finished running'
+
 		# Оптимизируем SVG
 		svgmin:
 			options:
@@ -143,27 +170,27 @@ module.exports = (grunt)->
 		watch:
 			js_frontend:
 				files   : ['<%= files.js.sources %>', '<%= files.js.develop %>']
-				tasks   : ['coffee', 'concat:js_frontend' ]
+				tasks   : ['coffee', 'concat:js_frontend', 'notify:js' ]
 				options :
 						livereload: true
 			css_frontend:
 				files   : ['<%= files.css.sources %>', '<%= files.css.develop %>']
-				tasks   : ['stylus', 'concat:css_frontend' ]
+				tasks   : ['stylus', 'concat:css_frontend', 'notify:css' ]
 				options :
 						livereload: true
 			images:
 				files: ['<%= path.sources %>/images/**/*.jpg', '<%= path.sources %>/images/**/*.png']
-				tasks   : ['copy', 'imagemin' ]
+				tasks   : ['copy', 'imagemin', 'notify:image' ]
 				options :
 						livereload: true
 			svg:
 				files   : ['<%= path.sources %>/images/svg/*.svg']
-				tasks   : ['svgmin']
+				tasks   : ['svgmin', 'notify:svg' ]
 				options :
 						livereload: true
 			html:
 				files   : ['<%= path.sources %>/html/*.jade', '<%= path.sources %>/html/**/*.jade']
-				tasks   : ['jade']
+				tasks   : ['jade', 'notify:html']
 				options :
 						livereload: true
 
@@ -179,11 +206,13 @@ module.exports = (grunt)->
 	grunt.loadNpmTasks 'grunt-contrib-uglify'
 	grunt.loadNpmTasks 'grunt-contrib-jade'
 	grunt.loadNpmTasks 'grunt-contrib-watch'
-	
+	grunt.loadNpmTasks 'grunt-notify'
 	grunt.loadNpmTasks 'grunt-csscomb'
 	grunt.loadNpmTasks 'grunt-svgmin'
 	
 
 	grunt.registerTask 'default', ['watch']
 
-	grunt.registerTask 'compile', ['svgmin', 'copy', 'imagemin', 'stylus', 'coffee', 'concat', 'csscomb', 'cssmin', 'uglify']
+	grunt.registerTask 'compile', ['svgmin', 'copy', 'imagemin', 'stylus', 'coffee', 'concat', 'csscomb', 'cssmin', 'uglify', 'jade']
+
+	grunt.task.run 'notify_hooks'
