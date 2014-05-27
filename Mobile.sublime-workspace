@@ -1,0 +1,1407 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"css",
+				"csscomb"
+			],
+			[
+				"min-",
+				"min-width:   (property)"
+			],
+			[
+				"wid",
+				"width:   (property)"
+			],
+			[
+				"onm",
+				"onmouseover	Attr"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"I",
+				"ITEMS"
+			],
+			[
+				"DETAIL",
+				"arDETAIL_PICTURE  (variable)"
+			],
+			[
+				"po",
+				"portfolio"
+			],
+			[
+				"se",
+				"section"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"fo-s",
+				"font-style"
+			],
+			[
+				"bo-c",
+				"border-color:   (property)"
+			],
+			[
+				"text",
+				"textarea  (element)"
+			],
+			[
+				"hi",
+				"highlight"
+			],
+			[
+				"incl",
+				"inline-block"
+			],
+			[
+				"full-w",
+				"full-width"
+			],
+			[
+				"des",
+				"description"
+			],
+			[
+				"opca",
+				"opacity"
+			],
+			[
+				"opc",
+				"opacity"
+			],
+			[
+				"con",
+				"contacts"
+			],
+			[
+				"un",
+				"underline"
+			],
+			[
+				"orang",
+				"orange2"
+			],
+			[
+				"hit",
+				"highlight2"
+			],
+			[
+				"impo",
+				"important"
+			],
+			[
+				"opac",
+				"opacify	opacify()"
+			],
+			[
+				"so",
+				"solid"
+			],
+			[
+				"ma-b",
+				"margin-bottom:   (property)"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"op",
+				"opacity	opacity()"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"vi",
+				"violet"
+			],
+			[
+				"sh",
+				"short"
+			],
+			[
+				"fi",
+				"fixed"
+			],
+			[
+				"full",
+				"full-width"
+			],
+			[
+				"ba-s",
+				"background-size:   (property)"
+			],
+			[
+				"arFie",
+				"arFields  (variable)"
+			],
+			[
+				"pro",
+				"product"
+			],
+			[
+				"str_rep",
+				"str_replace"
+			],
+			[
+				"pr",
+				"price"
+			],
+			[
+				"PRO",
+				"PROPS"
+			],
+			[
+				"In",
+				"IncludeModule"
+			],
+			[
+				"off",
+				"offet"
+			],
+			[
+				"SE",
+				"SECTION_ID"
+			],
+			[
+				"DE",
+				"DETAIL_PICTURE"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"DES",
+				"DESCRIPTION"
+			],
+			[
+				"fo",
+				"foreach	foreach …"
+			],
+			[
+				"arr",
+				"array	$… = array (…)"
+			],
+			[
+				"glo",
+				"global"
+			],
+			[
+				"vla",
+				"value	Attr"
+			],
+			[
+				"cur",
+				"currency"
+			],
+			[
+				"par",
+				"parsley"
+			],
+			[
+				"PRE",
+				"PREVIEW_TRUNCATE_LEN"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"rel",
+				"relative"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"remo",
+				"remove"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"hid",
+				"hidden"
+			],
+			[
+				"ce",
+				"center"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"image",
+				"images"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"fir",
+				"first"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"anim",
+				"animated"
+			],
+			[
+				"ac",
+				"acount"
+			],
+			[
+				"bou",
+				"bounceIn"
+			],
+			[
+				"anima",
+				"animated"
+			],
+			[
+				"too",
+				"toolbar"
+			],
+			[
+				"ad",
+				"addClass"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"er",
+				"error_message"
+			],
+			[
+				"error",
+				"error_message"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "bower.json",
+			"settings":
+			{
+				"buffer_size": 588,
+				"line_ending": "Unix",
+				"name": "{"
+			}
+		},
+		{
+			"file": "Gruntfile.coffee",
+			"settings":
+			{
+				"buffer_size": 3699,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Readme.md",
+			"settings":
+			{
+				"buffer_size": 73,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sources/js/script.coffee",
+			"settings":
+			{
+				"buffer_size": 2,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sources/css/style.styl",
+			"settings":
+			{
+				"buffer_size": 58,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 101.0,
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 610.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/slider/Documents/Projects/Merkado/mobile_html/Readme.md",
+		"/Users/slider/Documents/Projects/Merkado/mobile_html/sources/js/script.coffee",
+		"/Users/slider/Documents/Projects/Merkado/mobile_html/package.json",
+		"/Users/slider/Documents/Projects/Merkado/mobile_html/layout/css/frontend.css",
+		"/Users/slider/Documents/Projects/Merkado/mobile_html/bower_components/bootstrap/dist/js/bootstrap.js",
+		"/Users/slider/Documents/Projects/Merkado/mobile_html/.bowerrc",
+		"/Users/slider/Documents/Projects/Merkado/mobile_html/layout/js/frontend.js",
+		"/Users/slider/Documents/Projects/Merkado/mobile_html/npm-debug.log",
+		"/Users/slider/Documents/Projects/Merkado/mobile_html/bower_components/animate.css/.bower.json",
+		"/Users/slider/Documents/Projects/Radia/public_html/about/index.php",
+		"/Users/slider/Documents/Projects/Merkado/public_html/bitrix/.settings.php",
+		"/Users/slider/Documents/Projects/Merkado/public_html/bitrix/modules/import/settings.php",
+		"/Users/slider/Documents/Projects/Merkado/public_html/bitrix/php_interface/init.php",
+		"/Users/slider/Documents/Projects/Merkado/public_html/.access.php",
+		"/Users/slider/Documents/Projects/Merkado/public_html/index.php",
+		"/Users/slider/Documents/Projects/Merkado/public_html/bitrix/php_interface/dbconn.php",
+		"/Users/slider/Documents/Projects/Merkado/public_html/bitrix/templates/supermerkado/components/bitrix/catalog.section/.default/result_modifier.php",
+		"/Users/slider/Documents/Projects/Merkado/public_html/bitrix/modules/import/classes/general/CImportHandlers.php",
+		"/Users/slider/Documents/Projects/Merkado/public_html/bitrix/templates/supermerkado/components/bitrix/catalog.element/.default/collection.php",
+		"/var/folders/2t/kkwn6wlx0_nbqs96b12nfr0r0000gn/T/sublime-sftp-browse-1400241494/supermerkado/home/bitrix/www/bitrix/modules/import/classes/general/CImportHandlers.php",
+		"/Users/slider/Documents/Projects/Merkado/public_html/bitrix/templates/supermerkado/components/bitrix/catalog.section/.default/template.php",
+		"/Users/slider/Documents/Projects/Merkado/public_html/bitrix/templates/supermerkado/components/bitrix/news.list/comments/template.php",
+		"/Users/slider/Library/Application Support/Sublime Text 3/Packages/User/sftp_servers/supermerkado",
+		"/Users/slider/Library/Application Support/Sublime Text 3/Packages/User/SFTP.sublime-settings",
+		"/Users/slider/Documents/Projects/Merkado/public_html/bitrix/templates/supermerkado/footer.php",
+		"/Users/slider/Documents/Projects/Merkado/public_html/include/review.php",
+		"/Users/slider/Documents/Projects/Merkado/public_html/bitrix/templates/supermerkado/components/bitrix/sale.order.ajax/.default/confirm.php",
+		"/Users/slider/Documents/Projects/Merkado/public_html/bitrix/templates/supermerkado/components/bitrix/sale.basket.basket.small/.default/template.php",
+		"/Users/slider/Documents/Projects/Merkado/public_html/bitrix/templates/supermerkado/components/bitrix/menu/social/template.php",
+		"/Users/slider/Documents/Projects/Merkado/public_html/bitrix/templates/supermerkado/components/bitrix/catalog.element/.default/product.php",
+		"/Users/slider/Documents/Projects/Merkado/public_html/layout/js/main.js",
+		"/Users/slider/Documents/Projects/Merkado/public_html/bitrix/templates/supermerkado/components/bitrix/catalog.element/.default/result_modifier.php",
+		"/Users/slider/Documents/Projects/Merkado/public_html/layout/js/nav.coffee",
+		"/Users/slider/Documents/Projects/Merkado/public_html/urlrewrite.php",
+		"/Users/slider/Documents/Projects/Merkado/public_html/collection/index.php",
+		"/Users/slider/Documents/Projects/Merkado/public_html/bitrix/templates/supermerkado/header.php",
+		"/Users/slider/Documents/Projects/Merkado/public_html/include/menu.left.php",
+		"/Users/slider/Documents/Projects/Merkado/public_html/categories/index.php",
+		"/Users/slider/Documents/Projects/Merkado/public_html/search/index.php",
+		"/Users/slider/Documents/Projects/Lilly/doctors/video/index.php",
+		"/Users/slider/Documents/Projects/Lilly/layout/js/plugins.js",
+		"/Users/slider/Documents/Projects/Lilly/doctors/.top.menu.php",
+		"/Users/slider/Documents/Projects/Lilly/doctors/index.php",
+		"/Users/slider/Documents/Projects/Lilly/bitrix/templates/ochenprosto/header.php",
+		"/Users/slider/Documents/Projects/Lilly/bitrix/templates/ochenprosto/components/bitrix/news.detail/.default/template.php",
+		"/Users/slider/Documents/Projects/Lilly/index.php",
+		"/Users/slider/Documents/Projects/Lilly/bitrix/php_interface/dbconn.php",
+		"/Users/slider/Documents/Projects/Lilly/bitrix/templates/ochenprosto/footer.php",
+		"/Users/slider/Documents/Projects/Lilly/layout/js/vimeo.js",
+		"/Users/slider/Documents/Projects/Lilly/faq/index.php",
+		"/Users/slider/Documents/Projects/Lilly/bitrix/templates/ochenprosto/components/bitrix/news.list/promo.woman/template.php",
+		"/Users/slider/Documents/Projects/Lilly/bitrix/templates/ochenprosto/components/bitrix/news.list/promo/template.php",
+		"/Users/slider/Documents/Projects/Lilly/bitrix/templates/ochenprosto/components/bitrix/news.list/more/template.php",
+		"/Users/slider/Documents/Projects/Lilly/.top.menu.php",
+		"/Users/slider/Documents/Projects/Lilly/bitrix/.settings.php",
+		"/Users/slider/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/slider/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/slider/Documents/Projects/Radia/public_html/radia.sublime-project",
+		"/Users/slider/Documents/Projects/radia.sublime-project",
+		"/Users/slider/Documents/Projects/Radia/public_html/bitrix/.settings.php",
+		"/Users/slider/Documents/Projects/Radia/public_html/bitrix/php_interface/dbconn.php",
+		"/Users/slider/Documents/Radia/public_html/bitrix/templates/radia/components/bitrix/system.pagenavigation/.default/template.php",
+		"/Users/slider/Documents/Radia/public_html/bitrix/templates/radia/components/bitrix/news.list/portfolio/template.php",
+		"/Users/slider/Documents/Radia/public_html/bitrix/templates/radia/components/bitrix/news.list/portfolio_list/template.php",
+		"/Users/slider/Documents/Radia/public_html/bitrix/templates/radia/header.php",
+		"/Users/slider/Documents/Radia/public_html/portfolio/index.php",
+		"/Users/slider/Documents/Radia/public_html/bitrix/templates/radia/components/bitrix/news.detail/portfolio/template.php",
+		"/Users/slider/Documents/Radia/public_html/marketplace/slider/index.php",
+		"/Users/slider/Documents/Radia/public_html/bitrix/templates/clean/header.php",
+		"/Users/slider/Documents/Radia/public_html/index.php",
+		"/Users/slider/Documents/Radia/public_html/.htaccess",
+		"/Users/slider/Documents/Radia/public_html/layout/css/style.sass",
+		"/Users/slider/Documents/Radia/public_html/bitrix/templates/radia/components/bitrix/system.pagenavigation/template.php",
+		"/Users/slider/Documents/Radia/public_html/bitrix/templates/radia/components/bitrix/news.list/portfolio_index/template.php",
+		"/Users/slider/Documents/Radia/public_html/bitrix/templates/radia/components/bitrix/catalog.section.list/portfolio/template.php",
+		"/Users/slider/Documents/Radia/services.html",
+		"/Users/slider/Documents/Radia/public_html/bitrix/templates/radia/components/bitrix/news.detail/services/template.php",
+		"/Users/slider/Documents/Radia/public_html/bitrix/templates/radia/components/bitrix/news.list/catalog.section.list/portfolio/template.php",
+		"/Users/slider/Documents/Radia/public_html/services/detail.php",
+		"/Users/slider/Documents/Radia/public_html/bitrix/templates/radia/components/bitrix/news.list/services_list/template.php",
+		"/Users/slider/Documents/Radia/public_html/services/index.php",
+		"/Users/slider/Documents/Radia/contacts.html",
+		"/Users/slider/Documents/Radia/public_html/about/index.php",
+		"/Users/slider/Documents/Radia/public_html/contacts/index.php",
+		"/Users/slider/Documents/Radia/public_html/bitrix/templates/radia/components/bitrix/news.list/clients_about/template.php",
+		"/Users/slider/Documents/Radia/public_html/bitrix/templates/radia/components/bitrix/menu/.default/template.php",
+		"/Users/slider/Documents/Radia/public_html/bitrix/templates/radia/components/bitrix/news.list/services/template.php",
+		"/Users/slider/Documents/Radia/public_html/bitrix/templates/radia/components/bitrix/news.list/clients_index/template.php",
+		"/Users/slider/Documents/Radia/public_html/layout/js/main.coffee",
+		"/Users/slider/Documents/Radia/public_html/bitrix/templates/radia/components/radia/.default/template.php",
+		"/Users/slider/Documents/Radia/layout/js/main.coffee",
+		"/Users/slider/Documents/Radia/public_html/.top.menu.php",
+		"/Users/slider/Documents/Radia/config.rb",
+		"/Users/slider/Documents/Radia/layout/css/style.sass",
+		"/Users/slider/Documents/Radia/service.html",
+		"/Users/slider/Documents/Radia/about.html",
+		"/Users/slider/Documents/Radia/index.html",
+		"/Users/slider/Documents/Radia/portfolio-item-1.html",
+		"/Users/slider/Documents/Radia/portfolio.html",
+		"/Users/slider/Documents/Radia/layout/js/plugins.js",
+		"/Users/slider/Documents/Radia/layout/css/bootstrap.min.css",
+		"/Users/slider/Documents/Radia/portfolio-item-2.html",
+		"/Users/slider/Documents/Merkado/include/short.php",
+		"/Users/slider/Library/Application Support/Sublime Text 3/Packages/Colorsublime/Colorsublime.sublime-settings",
+		"/Users/slider/Documents/Merkado/layout/css/style.sass",
+		"/Users/slider/Documents/Merkado/bitrix/templates/supermerkado/components/bitrix/catalog.section/.default/template.php",
+		"/Users/slider/Documents/Merkado/bitrix/templates/supermerkado/components/bitrix/catalog/.default/bitrix/catalog.element/.default/template.php",
+		"/Users/slider/Documents/Merkado/bitrix/php_interface/init.php",
+		"/Users/slider/Documents/Merkado/categories/index.php",
+		"/Users/slider/Documents/Merkado/include/fast.php",
+		"/Users/slider/Documents/Merkado/layout/js/main.js",
+		"/Users/slider/Documents/Merkado/products/index.php",
+		"/Users/slider/Documents/Merkado/.htaccess",
+		"/Users/slider/Documents/Merkado/bitrix/templates/supermerkado/components/bitrix/catalog/.default/element.php",
+		"/Users/slider/Documents/Merkado/bitrix/templates/supermerkado/components/bitrix/breadcrumb/.default/template.php",
+		"/Users/slider/Documents/Merkado/include/buy.php",
+		"/Users/slider/Documents/Merkado/bitrix/templates/supermerkado/header.php",
+		"/Users/slider/Documents/Merkado/index.php",
+		"/Users/slider/Documents/Merkado/urlrewrite.php",
+		"/Users/slider/Documents/Merkado/bitrix/templates/supermerkado/components/bitrix/sale.order.ajax/.default/summary.php",
+		"/Users/slider/Documents/Merkado/layout/js/plugins.js",
+		"/Users/slider/Documents/Merkado/profile/index.php",
+		"/Users/slider/Documents/Merkado/include/metrics.php",
+		"/Users/slider/Documents/Merkado/bitrix/templates/supermerkado/footer.php",
+		"/Users/slider/Documents/Merkado/include/menu.left.php",
+		"/Users/slider/Documents/Merkado/layout/js/metrics.js",
+		"/Users/slider/Documents/Merkado/bitrix/templates/supermerkado/components/bitrix/news.list/index-banner/template.php",
+		"/Users/slider/Documents/Merkado/bitrix/modules/import/classes/general/CImportHandlers.php"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/slider/Documents/Projects/Lilly",
+			"/Users/slider/Documents/Projects/Merkado/public_html",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"%?>",
+			"./sources",
+			"layout/",
+			"layout",
+			"']\n",
+			"	p",
+			"рассылка",
+			"14px",
+			".block",
+			"360000",
+			"settings.php",
+			"$color[0",
+			"$size[0]['ID']",
+			"exParamImport",
+			"exGetParamByName",
+			"$elements[",
+			"->setFilter(",
+			"->setFilter",
+			"setFilter",
+			"exGetParamByName",
+			"HL\\HighloadBlockTable::getById(",
+			"$hlblock_requests=HL\\HighloadBlockTable::getById(",
+			"$hlblock_requests=HL\\HighloadBlockTable::getById($iblock)->fetch();",
+			"exGetParamByName",
+			"$name",
+			"exGetParamByName",
+			"OnBeforeUserRegister",
+			"OnBeforeUserAdd",
+			"OnBeforeUserAddHandler",
+			"OnBeforeUserRegister",
+			"$x[\"CODE\"]",
+			"$item['OFFERS'][0]",
+			"popup",
+			"$item['OFFERS'][0]",
+			"$item['OFFERS'][0]['CATALOG_QUANTITY']",
+			"pre",
+			"Актуальность информации",
+			".on",
+			"COLORS",
+			"+background-image(rainbow(top left, (red, orange, yellow, green, blue, indigo, violet)))",
+			"colors",
+			".colors",
+			"color",
+			"$default",
+			"a.buy",
+			"presale",
+			"configUpdate",
+			"productsP",
+			"productsPo",
+			"sidebar",
+			"mars",
+			"sideba",
+			"validatePhone",
+			"-1",
+			"productsPosition",
+			"limi",
+			"5",
+			"-list",
+			"item(",
+			"window",
+			"!impor",
+			"GetPageProperty",
+			"Order",
+			"#DDE3E8",
+			"content=\"width=1050, initial-scale=2\"",
+			"<a href=\"#\" class=\"title\">\n              <span class=\"span frame\">",
+			"socia",
+			"media",
+			"xs",
+			"@media",
+			"h2",
+			"<span class=\"name\">олдтаймер-галерея ильи сорокина</span>\n              <span class=\"type\">разработка сайта</span>  ",
+			"",
+			"border-bo",
+			"sub-title",
+			"color",
+			"hilight",
+			"popup_presale",
+			"phone",
+			"presale",
+			"parsley",
+			"presale",
+			"submit",
+			"presale",
+			"presal",
+			"/*",
+			"PROPERTIES",
+			".buy",
+			"previ",
+			"PREVIEW_PICTURE",
+			"</d",
+			"elementID",
+			"/products/<?=$item['CODE']?>/",
+			"desc",
+			"PREVIEW_PICTURE",
+			"PROPERTIES",
+			"MORE_PHOTO",
+			"<?=$item['DETAIL_PAGE_URL']?>",
+			"CSaleBasket::Add",
+			"currency",
+			"article",
+			"word break",
+			"article",
+			"onShow",
+			"#popup_",
+			"connect",
+			"OnAfterIBlockElementUpdateHandler",
+			"delay",
+			"product",
+			"#main",
+			"catalpro",
+			"href",
+			"catalog",
+			"delete",
+			"summ",
+			"importIm",
+			"categorys",
+			"initCart()",
+			"tada",
+			"#cart",
+			"sub-nav",
+			"bindSidebar",
+			"a.more",
+			"locati",
+			"arUrls",
+			"buy",
+			"Кор",
+			"openToolbarCart"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"%>",
+			"<%= path.sources %>",
+			"+background-image(rainbow(top left, (red, orange, yellow, green)))",
+			"item_w(",
+			"item_more(",
+			"item_promo(",
+			"GetDirProperty",
+			"content=\"width=1050, initial-scale=1\"",
+			"<div class=\"title\"><a href=\"#\">\n              <span class=\"span frame\">",
+			"<span class=\"name\">олдтаймер-галерея ильи сорокина</span><span class=\"line\"></span>\n              <span class=\"type\">разработка сайта</span>  ",
+			"<br>",
+			"title",
+			"bgcolor",
+			"highlight",
+			"/products/<?=$item['CODE']?>",
+			"/products/<?=$item['CODE']?>/",
+			"/products/<?=$item['CODE']?>",
+			"categories"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "bower.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 588,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								271,
+								271
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"auto_name": "{",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Gruntfile.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3699,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1179,
+								1179
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"incomplete_sync": null,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage"
+						},
+						"translation.x": 111.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"file": "public_html/layout/images/fotorama@2x.png",
+					"semi_transient": true,
+					"stack_index": 1,
+					"type": "image"
+				},
+				{
+					"buffer": 2,
+					"file": "Readme.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 73,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23,
+								23
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "sources/js/script.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "sources/css/style.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 58,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								58
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"incomplete_sync": null,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 98.0
+	},
+	"project": "Mobile.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 234.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,8 @@
+/bower_components/
+/node_modules/
+/public_html/*
+/sources/images/plugins/
+*.css
+*.js
+!/public_html/config.codekit
+Gruntfile.js

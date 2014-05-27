@@ -1,0 +1,30 @@
+{
+  "name": "merkado-mobile",
+  "version": "0.0.1",
+  "authors": [
+    "dayAlone <andrey.slider@gmail.com>"
+  ],
+  "description": "Supermerkado.ru mobile site",
+  "license": "MIT",
+  "homepage": "supermerkado.ru",
+  "private": true,
+  "dependencies": {
+    "jquery"      : "latest",
+    "bootstrap"   : "latest",
+    "fotorama"    : "latest",
+    "animate.css" : "latest",
+    "navstack"    : "latest"
+  },
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "sources/bower_components",
+    "test",
+    "tests"
+  ]
+}
