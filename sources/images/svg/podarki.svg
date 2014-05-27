@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="33px" height="35px" viewBox="0 0 33 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.2 (7799) - http://www.bohemiancoding.com/sketch -->
+    <title>podarki</title>
+    <description>Created with Sketch.</description>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Nav" sketch:type="MSArtboardGroup" transform="translate(-26.000000, -929.000000)" stroke="#252324">
+            <g id="podarki" sketch:type="MSLayerGroup" transform="translate(26.000000, 930.000000)">
+                <rect id="Rectangle-105" sketch:type="MSShapeGroup" x="0" y="5" width="33" height="7"></rect>
+                <rect id="Rectangle-107" sketch:type="MSShapeGroup" x="2" y="11" width="29" height="23"></rect>
+                <rect id="Rectangle-108" sketch:type="MSShapeGroup" x="13" y="5" width="7" height="29"></rect>
+                <path d="M16.550293,5.52258301 C16.550293,5.52258301 11.7220459,-2.07165527 8.35742188,0.465087891 C5.94543457,2.44006348 8.96533203,5.51342773 8.96533203,5.51342773 L16.550293,5.52258301 Z M16.550293,5.52258301 C16.550293,5.52258301 11.7220459,-2.07165527 8.35742188,0.465087891 C5.94543457,2.44006348 8.96533203,5.51342773 8.96533203,5.51342773 L16.550293,5.52258301 Z M16.4231346,5.52258301 C16.4231346,5.52258301 21.2513816,-2.07165527 24.6160057,0.465087891 C27.027993,2.44006348 24.0080955,5.51342773 24.0080955,5.51342773 L16.4231346,5.52258301 Z M16.4231346,5.52258301 C16.4231346,5.52258301 21.2513816,-2.07165527 24.6160057,0.465087891 C27.027993,2.44006348 24.0080955,5.51342773 24.0080955,5.51342773 L16.4231346,5.52258301 Z" id="Path-177" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
