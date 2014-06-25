@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="134px" height="49px" viewBox="0 0 134 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.2 (7799) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 55 + CКИДКА 2</title>
+    <description>Created with Sketch.</description>
+    <defs>
+        <path id="path-1" d="M6.00968706,0 C2.69062855,0 0,2.67719091 0,6.00057672 L0,32.9494185 C0,36.2634455 2.62779301,39.5249838 5.86683345,40.2175259 C5.86683345,40.2175259 46.9324201,49.4365324 65.9080617,49.4365324 C85.3879388,49.4365324 127.460442,40.1915285 127.460442,40.1915285 C130.701463,39.5058486 133.32883,36.2728043 133.32883,32.9494185 L133.32883,6.00057672 C133.32883,2.68654971 130.635406,0 127.319143,0 L6.00968706,0 Z"></path>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Product" sketch:type="MSArtboardGroup" transform="translate(-29.000000, -98.000000)">
+            <g id="Rectangle-55-+-CКИДКА-2" sketch:type="MSLayerGroup" transform="translate(29.000000, 97.000000)">
+                <g id="Rectangle-55">
+                    <use fill="#D65049" fill-rule="evenodd" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+                    <use fill="none" xlink:href="#path-1"></use>
+                </g>
+                <text id="CКИДКА-2" sketch:type="MSTextLayer" font-family="Circe" font-size="21" font-weight="bold" sketch:alignment="middle" fill="#FFFFFF">
+                    <tspan x="23.4173606" y="29.4788441">CКИДКА</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

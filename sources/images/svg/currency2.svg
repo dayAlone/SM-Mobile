@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="22px" height="30px" viewBox="0 0 22 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.2 (7799) - http://www.bohemiancoding.com/sketch -->
+    <title>currency2</title>
+    <description>Created with Sketch.</description>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Cart" sketch:type="MSArtboardGroup" transform="translate(-278.000000, -337.000000)" fill="#4A4A4A">
+            <g id="Product-7" sketch:type="MSLayerGroup" transform="translate(20.000000, 121.000000)">
+                <g id="Tools" transform="translate(17.000000, 59.000000)" sketch:type="MSShapeGroup">
+                    <g id="462-Р-+-–" transform="translate(214.000000, 157.000000)">
+                        <g id="currency2" transform="translate(27.000000, 0.000000)">
+                            <path d="M0.0346679782,24 L15,24 L15,22 L0.0346679782,22 L0.0346679782,24 Z" id="–"></path>
+                            <path d="M5.44556579,29.9990241 L5.44556579,18.13097 C7.16556579,18.25997 9.01456579,18.30297 10.4335658,18.30297 C17.9155658,18.30297 21.1405658,13.78797 21.1405658,9.10096998 C21.1405658,4.62896998 18.7755658,0.0279699836 10.4335658,0.0279699836 C8.71356579,0.0279699836 4.75756579,0.113969984 3.08056579,0.113969984 L3.08056579,29.9990241 L5.44556579,29.9990241 Z M10.6485658,2.26396998 C16.3245658,2.26396998 18.6465658,5.14496998 18.6465658,9.05796998 C18.6465658,13.18597 15.8085658,16.06697 10.3475658,16.06697 C8.62756579,16.06697 7.12256579,15.98097 5.44556579,15.85197 L5.44556579,2.34996998 C6.86456579,2.30696998 9.31556579,2.26396998 10.6485658,2.26396998 Z" id="Р"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

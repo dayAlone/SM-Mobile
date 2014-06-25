@@ -1,3 +1,749 @@
-body a
-	font 12px/1.3 "Lucida Grande", Arial, sans-serif
-	
+@import "nib"
+
+orange = #f5a623
+gray = #4A4A4A
+green = #90b04b
+red = #d65049
+
+full-width()
+	float left
+	width 100%
+
+html
+	overflow hidden
+
+body
+	background #f1f1f1
+	font-family: CirceWeb-Regular
+	full-width()
+	overflow-x hidden
+	position relative
+	min-height 100%
+	&.open-side
+		#catalog, #nav
+			transform: translateX(262px)
+		#catalog
+			.bar
+				.trigger
+					svg
+						path
+							fill green
+
+#toolbar, #catalog, .bottom-fade, #nav
+	transition-property(transform)
+	transition-duration(.2s)
+	transition-timing-function(ease-out)
+
+.scroll-wrap
+	position fixed
+	top 0
+	left 0
+	bottom 0
+	right 0
+	pointer-events none
+	z-index 100000500000
+	&.auto
+		pointer-events auto
+
+.animated
+	animation-duration: .5s
+
+a
+	transition-property(all)
+	transition-duration(.4s)
+	transition-timing-function(cubic-bezier(0.75, 0.25, 0.25, 0.75))
+	&:hover
+		text-decoration none
+.center
+	text-align center
+.right
+	text-align right
+
+#catalog
+	> .content
+		position absolute
+		top 0
+		left 0
+		padding-right 0
+
+.block
+	full-width()
+	position relative
+	height 100%
+	&.popup
+		display none
+		z-index 300
+		position fixed
+		background #f1f1f1
+	.bar
+		height 50px
+		line-height: 47px
+		background rgba(255,255,255,.96)
+		z-index 100
+		left 0
+		top 0
+		transition-property(box-shadow)
+		transition-duration(.4s)
+		full-width()
+		position fixed
+		animation-name zoomIn
+		.tooltip
+			min-width 240px
+			margin-top -5px
+			&.bottom .tooltip-arrow
+				border-bottom-color red
+			.tooltip-inner
+				max-width 100%
+				font-family CirceWeb-Bold
+				background red
+		&.shadow
+			box-shadow 0 2px 25px rgba(0,0,0,.4)
+		.row
+			> div
+				padding 0
+		a, span
+			display inline-block
+			height 49px
+			min-width 49px
+			text-align center
+			&.trigger
+				&.animated
+					animation-iteration-count infinite
+					animation-name zoomIn
+					animation-duration: 1.5s
+					animation-fill-mode: both
+				margin-top: 0px
+				svg
+					max-width 27px
+					path
+						fill red
+			&.cart
+				svg
+					max-width 27px
+					&:hover
+						g
+							fill red
+			&.logo
+				svg
+					max-width  150px
+			&.back
+				full-width()
+				text-align left
+				position relative
+				color #9b9b9b
+				svg
+					max-height 22px
+				span
+					position relative
+					top 2px
+					font-size 15px
+					diplay inline-block
+			&.title
+				font-family CirceWeb-Bold
+				font-size 19px
+				position relative
+				top 1px
+				color red
+			svg
+				vertical-align middle
+				diplay inline-block
+				max-height 50px
+				g
+					transition-property(all)
+					transition-duration(.4s)
+	.wrap, .frame
+		full-width()
+	> .content
+		&.index
+			padding-top 50px
+			margin-bottom 12px
+		full-width()
+		height 100%
+		padding: 62px 10px 0 0
+		-webkit-overflow-scrolling: touch
+		overflow-y scroll
+		overflow-x hidden
+		.frame
+			padding-right 10px
+			full-width()
+		.elements
+			full-width()
+			position relative
+			.item
+				width 50%
+				@media screen and (min-width: 480px)
+					width 33.33333333%
+				@media screen and (min-width: 600px)
+					width 25%
+				@media screen and (min-width: 960px)
+					width 16.6666666667%
+				@media screen and (min-width: 1200px)
+					width 12.5%
+				float left
+				a.image
+					full-width()
+					height 130px
+					border-radius 4px 4px 0 0
+					background-size contain
+					background-position center center
+					background-repeat no-repeat
+					background-color white
+				.item-content
+					.wrap
+						full-width()
+						padding 7px 7px 3px 7px
+					width 100%
+					margin-left 10px
+					margin-bottom 10px
+					background white
+					border-radius 4px
+					float left
+					a
+						&.name
+							font-size 12px
+							line-height 12px
+							float left
+							width 100%
+							color gray
+							margin-bottom 5px
+						&.buy
+							font-family: CirceWeb-ExtraBold
+							font-size 6px
+							text-transform uppercase
+							color orange
+							float right
+							full-width()
+							position relative
+							.content
+								white-space nowrap
+								text-align center
+								padding 5px 5px 4px
+								full-width()
+								&:after
+									content: '';
+									position: absolute;
+									top: 0;
+									border-radius 20px
+									left: 0%;
+									border: 1px solid orange;
+									box-sizing: border-box;
+									width: 100%;
+									height: 100%;
+									//transform: scale(0.5);
+									transform-origin: left top;
+					.price
+						color gray
+						font-size 15px
+						font-family: CirceWeb-Bold
+						font-weight 600
+						svg
+							max-height 11px
+							position relative
+							margin-left 0px
+							g
+								fill gray
+
+	.bottom-fade
+		position fixed
+		pointer-events none
+		height 100px
+		width 100%
+		bottom 0
+		left 0
+		z-index 200
+		background-image: linear-gradient(rgba(241,241,241,0.00) 0%, #F1F1F1 70%)
+		text-align center
+		&.on
+			pointer-events auto
+			a
+				opacity 1
+		a
+			margin-top 55px
+			opacity 0
+			width 157px
+			height 30px
+			line-height 26px
+			border 1px solid gray
+			display inline-block
+			border-radius 33px
+			background rgba(255,255,255,.5)
+			text-transform uppercase
+			font-family CirceWeb-Bold
+			font-size 12px
+			color gray
+			svg
+				max-height 19px
+				display inline-block
+				vertical-align middle
+				top -1px
+				position relative
+				g
+					fill gray
+			span
+				display inline-block
+				vertical-align middle
+				margin 0 10px
+
+#catalog
+	.fotorama
+		full-width()
+		margin-bottom 7px
+		.item
+			text-align center
+			full-width()
+			height 155px
+			background-position center center
+			background-size cover
+			line-height 155px
+			img
+				max-width 95%
+				vertical-align bottom
+				max-height 100%
+
+#nav
+	position fixed
+	width 262px
+	background white
+	left -262px
+	top 0
+	z-index 200
+	height 100%
+	overflow scroll
+	pointer-events none
+	&.on
+		pointer-events auto
+	-webkit-overflow-scrolling: touch
+	box-shadow inset -15px 0 15px -15px rgba(0,0,0,0.4)
+	background #f1f1f1
+	ul
+		margin 0
+		padding 0
+		list-style none
+		full-width()
+		li
+			full-width
+			font-size 16px
+			line-height 42px
+			position relative
+			overflow hidden
+
+			&:last-of-type
+				a:after
+					display none
+			a
+				full-width()
+				box-shadow inset -15px 0 15px -15px rgba(0,0,0,0.4)
+				color black
+				background white
+				font-family: CirceWeb-Regular
+				svg
+					top -3px
+				&.active
+					font-family: CirceWeb-Bold
+					color green
+					.text
+						opacity 1
+					svg
+						top -1px
+						g
+							stroke-width 3px
+						path, circle
+							stroke green
+				&.call
+					background green
+					background-image linear-gradient(-90deg, rgba(255,255,255,0.25) 0%, rgba(0,0,0,0) 100%)
+					box-shadow inset -15px 0 15px -15px rgba(0,0,0,0.4)
+					font-size 17px
+					font-family: CirceWeb-Bold
+					color white
+					.text
+						opacity 1
+					.icon
+						svg
+							top -3px
+					&:after
+						display none
+				&.last:after
+					display none
+				&.gray
+					background transparent
+					background #f1f1f1
+				.icon
+					width 50px
+					position absolute
+					text-align center
+					display inline-block
+					svg
+						display inline-block
+						position relative
+						top 0px
+						transform: scale(0.6)
+						vertical-align middle
+				.text
+					position relative
+					top -1px
+					margin-left 50px
+					opacity .7
+				&:after
+					content ""
+					position absolute
+					bottom 0
+					left -30.5%
+					width 200%
+					border-bottom 1px solid #b9b9b9
+					transform: scale(0.5)
+
+#cart
+	.bottom-fade
+		padding 0 9px
+		pointer-events auto
+		input
+			opacity 0
+		&.on
+			input
+				opacity 1
+		a
+			margin-top 3px
+			opacity 1
+			text-align left
+			color green
+			border-color green
+			full-width()
+			float right
+			min-width 160px
+			max-width 160px
+			background white
+			span
+				margin 0 5px 0 0
+			svg
+				path
+					fill none
+		.total
+			font-size 27px
+			full-width()
+			position relative
+			top -1px
+			text-align left
+			svg
+				max-height 20px
+				margin-left 2px
+	.content
+		padding-left 10px
+		padding-bottom 100px
+		.item
+			full-width()
+			@media screen and (max-width: 1024px)
+				width 31.333333%
+				margin 0 1% 12px
+			@media screen and (max-width: 768px)
+				width 47%
+				margin 0 1.5% 12px
+			padding 7px 7px 4px 7px
+			margin-bottom 12px
+			background white
+			border-radius 4px
+			overflow hidden
+			position relative
+			.color
+				position absolute
+				top -10px
+				right 0
+				svg
+					width 20px
+					path
+						fill white
+			.image
+				full-width()
+				border-radius 3px
+				background-size contain
+				background-position center center
+				background-repeat no-repeat
+				height 81px
+				margin-bottom 7px
+				width 81px
+			.text
+				full-width()
+				height 81px
+				font-size 16px
+				line-height 16px
+				position relative
+				span
+					position absolute
+					top 50%
+					transform translateY(-50%)
+			.action
+				padding-top 7px
+				border-top 1px solid #dfdfdf
+				height 37px
+				line-height 27px
+				font-size 15px
+				div, span
+					position relative
+					padding 0
+				.count
+					left 3px
+				.price, .total
+					full-width()
+					font-size 20px
+				.total
+					padding-right 10px
+				svg
+					display inline-block
+					max-height 14px
+				a
+					&.plus
+						position absolute
+						right -3px
+						top 0
+					&.minus
+						position absolute
+						left 3px
+						top 0
+					svg
+						max-height 25px
+	input.order
+		full-width()
+		box-shadow none
+		border-radius 4px
+		border 1px solid orange
+		margin-bottom 15px
+		appearance none
+		text-align center
+		background transparent
+		color orange
+		font-size 16px
+		&::-webkit-input-placeholder
+			color orange
+			text-align center
+
+#order
+	.content
+		padding-left 10px
+		.delivery, .money
+			@media screen and (max-width: 1024px)
+				width 49%
+				float left
+		.delivery
+			@media screen and (max-width: 1024px)
+				margin-right 2%
+		.item
+			padding 8px 8px 0 8px
+			full-width()
+			margin-top 8px
+			border-radius 4px
+			overflow hidden
+			background white
+			
+			& + .title
+				margin-top 18px
+			.row
+				position relative
+				padding-bottom 4px
+				margin-bottom 7px
+				border-bottom 1px solid #dcdcdc
+				&:last-of-type
+					margin-bottom 0
+					border-bottom 0
+				> div
+					position static
+			.iradio
+				float left
+				width 20px
+				height 20px
+				left 26px
+				border-radius 20px
+				margin-top -3px
+				border 1px solid #dcdcdc
+				position absolute !important
+				top 50%
+				transform translateY(-50%)
+				&.checked
+					border-color red
+					background red
+					box-shadow inset 0 0 0 3px white
+			label
+				font-weight normal
+				full-width()
+				@media screen and (max-width: 1024px)
+					margin-left -30px
+				@media screen and (max-width: 768px)
+					margin-left 0px
+				svg
+					margin 5px 0 0 -40px
+					max-width 140px
+					max-height 40px
+					display inline-block
+				p
+					letter-spacing 0
+					font-size 12px
+					opacity .8
+					margin-bottom 0
+				h3
+					margin-top 3px
+					margin-bottom 5px
+					font-size 18px
+					padding-top 0
+			input, textarea
+				appearance none
+				border-radius 4px
+				border 1px solid #dcdcdc
+				full-width()
+				padding-top 5px
+				text-align center
+				margin-bottom 8px
+				&::-webkit-input-placeholder
+					text-align center
+			textarea
+				height 80px
+		.title
+			text-transform uppercase
+			font-family CirceWeb-Bold
+			full-width()
+			color gray
+			font-size 11px
+			margin-top 5px
+			text-align center
+	a.order
+		full-width()
+		width 84%
+		@media screen and (max-width: 1024px)
+			max-width 300px
+			left 50%
+			margin-left -150px
+			position relative
+		margin-left 8%
+		border 1px solid green
+		border-radius 30px
+		background white
+		padding-right 2%
+		text-transform uppercase
+		color green
+		font-size 19px
+		font-family CirceWeb-Bold
+		line-height 39px
+		height 40px
+		text-align center
+		margin-top 20px
+		margin-bottom 20px
+		svg
+			max-height 29px
+			margin-top -5px
+			margin-right 10px
+			display inline-block
+			vertical-align middle
+		
+#product
+	&.block
+		.content
+			padding-right 0
+	.fotorama
+		margin-top -12px
+		.fotorama__stage
+			@media screen and (max-width: 1024px)
+				height 440px !important
+				.item
+					background-size contain
+			@media screen and (max-width: 768px)
+				height 640px !important
+				.item
+					background-size cover
+		.item
+			full-width()
+			width 100%
+			height 100%
+			background-color white
+			background-size cover
+			background-position center center
+			background-repeat no-repeat
+	.description
+		full-width()
+		background-image: linear-gradient(-179deg, rgba(241,241,241,0.00) 0%, #FFFFFF 50%);
+		padding 0 10px 10px
+		h1
+			full-width()
+			padding 0 10px
+			font-size 26px
+			line-height 27px
+			font-family CirceWeb-ExtraLight
+			text-align center
+		.colors, .sizes
+			full-width()
+			margin-top 10px
+			text-align center
+			.item
+				float none
+				display inline-block
+				width 30px
+				height 30px
+				border-radius 8px
+				border 1px solid transparent
+				margin 7px 7px 0 7px
+				&.active
+					border 1px solid gray
+					box-shadow inset 0 0 0 2px white
+		.sizes
+			.item
+				width auto
+				border-color #CCC
+				color black
+				line-height 29px
+				padding 0 10px
+				font-size 12px
+				&.active
+					box-shadow none
+		.price
+			margin-top 12px
+			overflow hidden
+			full-width()
+			a.order
+				svg
+					display inline-block
+					max-height 20px
+					vertical-align middle
+					position relative
+					top -1px
+				float right
+				width 165px
+				padding-right 5px
+				border 1px solid green
+				height 35px
+				line-height 34px
+				text-transform uppercase
+				font-size 10px
+				color green
+				font-family CirceWeb-Bold
+				border-radius 30px
+				text-align center
+			.current
+				full-width()
+				white-space no-wrap
+				font-size 28px
+				color black
+				svg
+					margin-left 2px
+					max-height 20px
+					path
+						fill black
+	.content
+		.text
+			full-width()
+			padding 0 20px 20px
+			background white
+			h2
+				font-size 22px
+			
+
+@keyframes zoomIn
+	0%
+		transform: scale(.8)
+
+	50%
+		transform: scale(1)
+
+	100%
+		transform: scale(.8)
+
+.fotorama__arr,.fotorama__fullscreen-icon,.fotorama__video-close,.fotorama__video-play
+	background-image url(/layout/plugins/fotorama.png)
+	@media (-webkit-min-device-pixel-ratio:1.5),(min-resolution:144dpi)
+		background-image url(/layout/images/plugins/fotorama@2x.png)

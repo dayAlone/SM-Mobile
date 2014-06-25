@@ -319,7 +319,7 @@
 			"file": "bower.json",
 			"settings":
 			{
-				"buffer_size": 588,
+				"buffer_size": 708,
 				"line_ending": "Unix",
 				"name": "{"
 			}
@@ -328,7 +328,7 @@
 			"file": "Gruntfile.coffee",
 			"settings":
 			{
-				"buffer_size": 3699,
+				"buffer_size": 5790,
 				"line_ending": "Unix"
 			}
 		},
@@ -336,7 +336,7 @@
 			"file": "Readme.md",
 			"settings":
 			{
-				"buffer_size": 73,
+				"buffer_size": 186,
 				"line_ending": "Unix"
 			}
 		},
@@ -344,7 +344,7 @@
 			"file": "sources/js/script.coffee",
 			"settings":
 			{
-				"buffer_size": 2,
+				"buffer_size": 2532,
 				"line_ending": "Unix"
 			}
 		},
@@ -352,7 +352,7 @@
 			"file": "sources/css/style.styl",
 			"settings":
 			{
-				"buffer_size": 58,
+				"buffer_size": 14019,
 				"line_ending": "Unix"
 			}
 		}
@@ -712,15 +712,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 588,
+						"buffer_size": 708,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								271,
-								271
+								0,
+								0
 							]
 						],
 						"settings":
@@ -729,6 +729,10 @@
 							[
 								{
 									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -861,19 +865,30 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3699,
+						"buffer_size": 5790,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1179,
-								1179
+								0,
+								0
 							]
 						],
 						"settings":
 						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
 							"codeintel": true,
 							"codeintel_config":
 							{
@@ -978,10 +993,13 @@
 							},
 							"codeintel_tooltips": "popup",
 							"incomplete_sync": null,
+							"remote_loading": false,
 							"sublime_auto_complete": true,
-							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage"
+							"synced": false,
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 111.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -1000,15 +1018,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 73,
+						"buffer_size": 186,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								23,
-								23
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1017,6 +1035,10 @@
 							[
 								{
 									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -1146,7 +1168,54 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2,
+						"buffer_size": 2532,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "sources/css/style.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14019,
 						"regions":
 						{
 						},
@@ -1170,37 +1239,6 @@
 									"selector": "text.html"
 								}
 							],
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "sources/css/style.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 58,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								58,
-								58
-							]
-						],
-						"settings":
-						{
 							"auto_name": "",
 							"codeintel": true,
 							"codeintel_config":
@@ -1306,8 +1344,11 @@
 							},
 							"codeintel_tooltips": "popup",
 							"incomplete_sync": null,
+							"remote_loading": false,
 							"sublime_auto_complete": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

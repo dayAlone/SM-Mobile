@@ -1,3 +1,44 @@
 include includes/header
+- var s = 'string';
+#catalog.block
+	.bar
+		.container-fluid
+			.row
+				.col-xs-2
+					a.trigger.animated(data-toggle="tooltip", data-placement="bottom", title="У нас очень много товаров, загляни сюда.")
+						include ../../public_html/layout/images/svg/nav.svg
+				.col-xs-8.center
+					a.logo(href="/")
+						include ../../public_html/layout/images/svg/logo.svg
+				.col-xs-2.right
+					a.toggle.cart(href="#cart")
+						include ../../public_html/layout/images/svg/cart.svg
+	.content.index
+		.fotorama(data-width="100%", data-height="155px", data-nav="false")
+			.item(style="background-image: url(/layout/images/tmp/banner-bg.png)")
+				img(src="/layout/images/tmp/banner-img.png")
+			.item(style="background-image: url(/layout/images/tmp/banner-bg.png)")
+				img(src="/layout/images/tmp/banner-img.png")
+		.frame
+			.elements
+				each item in products
+					.item
+						.item-content
+							a.toggle.image(href="#product",style="background-image:url(#{item.image}); #{item.bsize ? 'background-size: cover' : ''}")
+							.wrap
+								a.name(href="#")= item.name
+								.row
+									.col-xs-6
+										.price
+											nobr
+												= item.price
+												include ../../public_html/layout/images/svg/currency.svg
+									.col-xs-6
+										a.buy(href="#")
+											.content В корзину
+	.bottom-fade
+		a(href="#")
+			include ../../public_html/layout/images/svg/loading.svg
+			span Загрузить еще 
 
 include includes/footer		

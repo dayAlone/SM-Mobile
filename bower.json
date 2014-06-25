@@ -9,11 +9,15 @@
   "homepage": "supermerkado.ru",
   "private": true,
   "dependencies": {
-    "jquery"      : "latest",
-    "bootstrap"   : "latest",
-    "fotorama"    : "latest",
-    "animate.css" : "latest",
-    "navstack"    : "latest"
+    "jquery": "latest",
+    "bootstrap": "latest",
+    "fotorama": "latest",
+    "animate.css": "latest",
+    "navstack": "latest",
+    "isotope": "~2.0.0",
+    "waslidemenu": "git@github.com:webasyst/waslidemenu.git",
+    "iCheck": "~1.0.2",
+    "fastclick": "~1.0.2"
   },
   "moduleType": [
     "amd",

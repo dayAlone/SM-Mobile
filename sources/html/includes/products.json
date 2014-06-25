@@ -1,0 +1,74 @@
+{
+	"1" : {
+		"name" : "Светильник - Ваза",
+		"image" : "/layout/images/tmp/p-1.png",
+		"price" : "2 312",
+		"bsize" : "cover"
+	},
+	"2" : {
+		"name" : "Ланч-бокс French Student Elle violett",
+		"image" : "/layout/images/tmp/p-2.png",
+		"price" : "312"
+
+	},
+	"3" : {
+		"name" : "Мягкая игрушка-подушка Dooodolls Doo Third Eye, размер 60 см",
+		"image" : "/layout/images/tmp/p-3.png",
+		"price" : "12 312"
+
+	},
+	"4" : {
+		"name" : "Светильник - Ваза",
+		"image" : "/layout/images/tmp/p-4.png",
+		"price" : "2 312",
+		"bsize" : "cover"
+	},
+	"1" : {
+		"name" : "Светильник - Ваза",
+		"image" : "/layout/images/tmp/p-1.png",
+		"price" : "2 312",
+		"bsize" : "cover"
+	},
+	"2" : {
+		"name" : "Ланч-бокс French Student Elle violett",
+		"image" : "/layout/images/tmp/p-2.png",
+		"price" : "312"
+
+	},
+	"3" : {
+		"name" : "Мягкая игрушка-подушка Dooodolls Doo Third Eye, размер 60 см",
+		"image" : "/layout/images/tmp/p-3.png",
+		"price" : "12 312"
+
+	},
+	"4" : {
+		"name" : "Светильник - Ваза",
+		"image" : "/layout/images/tmp/p-4.png",
+		"price" : "2 312",
+		"bsize" : "cover"
+	},
+	"5" : {
+		"name" : "Светильник - Ваза",
+		"image" : "/layout/images/tmp/p-1.png",
+		"price" : "2 312",
+		"bsize" : "cover"
+	},
+	"6" : {
+		"name" : "Ланч-бокс French Student Elle violett",
+		"image" : "/layout/images/tmp/p-2.png",
+		"price" : "312"
+
+	},
+	"7" : {
+		"name" : "Мягкая игрушка-подушка Dooodolls Doo Third Eye, размер 60 см",
+		"image" : "/layout/images/tmp/p-3.png",
+		"price" : "12 312"
+
+	},
+	"8" : {
+		"name" : "Светильник - Ваза",
+		"image" : "/layout/images/tmp/p-4.png",
+		"price" : "2 312",
+		"bsize" : "cover"
+	}
+}

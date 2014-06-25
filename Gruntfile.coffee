@@ -5,8 +5,8 @@ module.exports = (grunt)->
 
 		# Переменные папок
 		path:
-			sources : './sources'
-			layout  : './public_html/layout'
+			sources : 'sources'
+			layout  : 'public_html/layout'
 
 		files:
 			css:
@@ -14,9 +14,8 @@ module.exports = (grunt)->
 				develop  : '<%= path.sources %>/css/style.styl'
 				sources : [
 							'./bower_components/bootstrap/dist/css/bootstrap.css'
-							'./bower_components/animate.css/animate.css'
 							'./bower_components/fotorama/fotorama.css'
-							'./bower_components/navstack/navstack.css'
+							'./bower_components/animate.css/animate.css'
 							'<%= path.sources %>/css/style.css'
 					]
 			js:
@@ -24,9 +23,11 @@ module.exports = (grunt)->
 				develop  : '<%= path.sources %>/js/script.coffee'
 				sources  : [
 							'./bower_components/jquery/dist/jquery.js'
-							'./bower_components/fotorama/fotorama.js'
-							'./bower_components/navstack/navstack.js'
 							'./bower_components/bootstrap/dist/js/bootstrap.js'
+							'./bower_components/isotope/jquery.isotope.js'
+							'./bower_components/fotorama/fotorama.js'
+							'./bower_components/fastclick/lib/fastclick.js'
+							'./bower_components/iCheck/icheck.js'
 							'<%= path.sources %>/js/script.js'
 						]
 
@@ -44,7 +45,7 @@ module.exports = (grunt)->
 				options:
 					title: 'JavaScript Compile Complete'
 					message: 'CoffeScript, Concat & Uglify finished running'
-			img:
+			image:
 				options:
 					title: 'Images Compile Complete'
 					message: 'ImageMin finished running'
@@ -59,10 +60,6 @@ module.exports = (grunt)->
 
 		# Оптимизируем SVG
 		svgmin:
-			options:
-				removeViewBox: true
-				removeEmptyAttrs: true
-				removeUselessStrokeAndFill: true
 			dist:
 				files: [{
 					expand: true
@@ -101,8 +98,11 @@ module.exports = (grunt)->
 
 		# Конвертируем Stylus -> CSS
 		stylus:
-			files:
-				'<%= path.sources %>/css/style.css' : [ '<%= path.sources %>/css/style.styl' ]
+			options:
+				compress: false
+			compile:
+				files:
+					'<%= path.sources %>/css/style.css' : '<%= path.sources %>/css/style.styl'
 
 		# Конвертируем CoffeeScript -> JavaScript
 		coffee:
@@ -112,11 +112,11 @@ module.exports = (grunt)->
 
 		# Собираем JS и CSS в один файл
 		concat:
-			options:
-				separator: ';'
 			js_frontend:
 				src  : ['<%= files.js.sources %>']
 				dest : '<%= files.js.frontend %>'
+				options:
+					separator: ';'
 			css_frontend:
 				src  : ['<%= files.css.sources %>']
 				dest : '<%= files.css.frontend %>'
@@ -154,8 +154,8 @@ module.exports = (grunt)->
 			compile:
 				options:
 					pretty: true
-					data:
-						debug: false
+					data: 
+						products : grunt.file.readJSON('./sources/html/includes/products.json')
 				files:	[{
 					expand : true
 					cwd    : '<%= path.sources %>/html/'
@@ -175,7 +175,7 @@ module.exports = (grunt)->
 						livereload: true
 			css_frontend:
 				files   : ['<%= files.css.sources %>', '<%= files.css.develop %>']
-				tasks   : ['stylus', 'concat:css_frontend', 'notify:css' ]
+				tasks   : ['stylus', 'concat:css_frontend', 'csscomb', 'notify:css' ]
 				options :
 						livereload: true
 			images:
@@ -185,7 +185,7 @@ module.exports = (grunt)->
 						livereload: true
 			svg:
 				files   : ['<%= path.sources %>/images/svg/*.svg']
-				tasks   : ['svgmin', 'notify:svg' ]
+				tasks   : ['svgmin', 'jade', 'notify:svg' ]
 				options :
 						livereload: true
 			html:
@@ -196,7 +196,7 @@ module.exports = (grunt)->
 
 	
 	
-	
+	grunt.loadNpmTasks 'grunt-autoprefixer'
 	grunt.loadNpmTasks 'grunt-contrib-coffee'
 	grunt.loadNpmTasks 'grunt-contrib-concat'
 	grunt.loadNpmTasks 'grunt-contrib-copy'
