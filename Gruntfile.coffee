@@ -24,9 +24,9 @@ module.exports = (grunt)->
 				sources  : [
 							'./bower_components/jquery/dist/jquery.js'
 							'./bower_components/bootstrap/dist/js/bootstrap.js'
-							'./bower_components/isotope/jquery.isotope.js'
 							'./bower_components/fotorama/fotorama.js'
 							'./bower_components/fastclick/lib/fastclick.js'
+							'./bower_components/imagesloaded/imagesloaded.pkgd.js'
 							'./bower_components/iCheck/icheck.js'
 							'<%= path.sources %>/js/script.js'
 						]
@@ -210,6 +210,7 @@ module.exports = (grunt)->
 	grunt.loadNpmTasks 'grunt-csscomb'
 	grunt.loadNpmTasks 'grunt-svgmin'
 	
+	grunt.loadNpmTasks 'grunt-combine-media-queries'
 
 	grunt.registerTask 'default', ['watch']
 

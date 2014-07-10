@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="47px" height="42px" viewBox="0 0 47 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.3 (7891) - http://www.bohemiancoding.com/sketch -->
+    <title>menu-cart</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Catalog-3" sketch:type="MSArtboardGroup" transform="translate(-229.000000, -1058.000000)" stroke-linecap="round" stroke="#1B1A19" stroke-linejoin="round">
+            <g id="Imported-Layers-+-Каталог-товаров-+-Imported-Layers-2-+-Imported-Layers-2" sketch:type="MSLayerGroup" transform="translate(220.000000, 1059.000000)">
+                <path d="M22,36.999 C22,38.656 20.657,39.999 19,39.999 C17.343,39.999 16,38.656 16,36.999 C16,35.343 17.343,33.999 19,33.999 C20.657,33.999 22,35.343 22,36.999 L22,36.999 Z M44,36.999 C44,38.656 42.657,39.999 41,39.999 C39.343,39.999 38,38.656 38,36.999 C38,35.343 39.343,33.999 41,33.999 C42.657,33.999 44,35.343 44,36.999 L44,36.999 Z M56,0 L49,0 L40.7976074,33.5063477 L18.7976074,33.5063477 M41.9943848,30.4995117 L16.0533848,30.4995117 L10.1118164,12.5354004 L46.1118164,12.5354004 L41.9943848,30.4995117 Z" id="menu-cart" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

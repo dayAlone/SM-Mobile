@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.0.2 (7799) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 3.0.3 (7891) - http://www.bohemiancoding.com/sketch -->
     <title>elektronika</title>
-    <description>Created with Sketch.</description>
+    <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Nav" sketch:type="MSArtboardGroup" transform="translate(-18.000000, -272.000000)">
-            <g id="elektronika" sketch:type="MSLayerGroup" transform="translate(19.000000, 273.000000)">
-                <path d="M36,44 C36,45.1 35.1,46 34,46 L16,46 C14.9,46 14,45.1 14,44 L14,18 C14,16.9 14.9,16 16,16 L34,16 C35.1,16 36,16.9 36,18 L36,44 L36,44 Z" id="Shape" stroke="#252324" sketch:type="MSShapeGroup"></path>
-                <rect id="Rectangle-path" stroke="#252324" sketch:type="MSShapeGroup" x="10" y="20" width="4" height="12"></rect>
-                <path d="M10,26 L14,26" id="Shape" stroke="#252324" sketch:type="MSShapeGroup"></path>
-                <path d="M18,42 L32,42" id="Shape" stroke="#252324" sketch:type="MSShapeGroup"></path>
-                <rect id="Rectangle-path" stroke="#252324" sketch:type="MSShapeGroup" x="18" y="20" width="14" height="18"></rect>
+        <g id="Nav-2" sketch:type="MSArtboardGroup" transform="translate(-18.000000, -182.000000)">
+            <g id="elektronika" sketch:type="MSLayerGroup" transform="translate(19.000000, 183.000000)">
+                <path d="M36,44 C36,45.1 35.1,46 34,46 L16,46 C14.9,46 14,45.1 14,44 L14,18 C14,16.9 14.9,16 16,16 L34,16 C35.1,16 36,16.9 36,18 L36,44 L36,44 Z" id="Shape" stroke="#252324" stroke-width="2" sketch:type="MSShapeGroup"></path>
+                <rect id="Rectangle-path" stroke="#252324" stroke-width="2" sketch:type="MSShapeGroup" x="10" y="20" width="4" height="12"></rect>
+                <path d="M10,26 L14,26" id="Shape" stroke="#252324" stroke-width="2" sketch:type="MSShapeGroup"></path>
+                <path d="M18,42 L32,42" id="Shape" stroke="#252324" stroke-width="2" sketch:type="MSShapeGroup"></path>
+                <rect id="Rectangle-path" stroke="#252324" stroke-width="2" sketch:type="MSShapeGroup" x="18" y="20" width="14" height="18"></rect>
                 <path d="M26,25 C25.4,25 25,25.4 25,26 C25,26.6 25.4,27 26,27 C26.6,27 27,26.6 27,26 C27,25.4 26.6,25 26,25 L26,25 L26,25 Z" id="Shape" fill="#252324" sketch:type="MSShapeGroup"></path>
                 <path d="M26,31 C25.4,31 25,31.4 25,32 C25,32.6 25.4,33 26,33 C26.6,33 27,32.6 27,32 C27,31.4 26.6,31 26,31 L26,31 L26,31 Z" id="Shape" fill="#252324" sketch:type="MSShapeGroup"></path>
-                <path d="M6,32 C6,33.1 5.1,34 4,34 L4,34 C2.9,34 2,33.1 2,32 L2,26 C2,24.9 2.9,24 4,24 L4,24 C5.1,24 6,24.9 6,26 L6,32 L6,32 Z" id="Shape" stroke="#252324" sketch:type="MSShapeGroup"></path>
-                <path d="M44,32 C44,33.1 43.1,34 42,34 L42,34 C40.9,34 40,33.1 40,32 L40,26 C40,24.9 40.9,24 42,24 L42,24 C43.1,24 44,24.9 44,26 L44,32 L44,32 Z" id="Shape" stroke="#252324" sketch:type="MSShapeGroup"></path>
-                <path d="M44,29 L46,29 L46,23 C46,10.3 35.7,0 23,0 C10.3,0 0,10.3 0,23 L0,29 L2,29" id="Shape" stroke="#252324" sketch:type="MSShapeGroup"></path>
+                <path d="M6,32 C6,33.1 5.1,34 4,34 L4,34 C2.9,34 2,33.1 2,32 L2,26 C2,24.9 2.9,24 4,24 L4,24 C5.1,24 6,24.9 6,26 L6,32 L6,32 Z" id="Shape" stroke="#E29454" stroke-width="2" sketch:type="MSShapeGroup"></path>
+                <path d="M44,32 C44,33.1 43.1,34 42,34 L42,34 C40.9,34 40,33.1 40,32 L40,26 C40,24.9 40.9,24 42,24 L42,24 C43.1,24 44,24.9 44,26 L44,32 L44,32 Z" id="Shape" stroke="#E29454" stroke-width="2" sketch:type="MSShapeGroup"></path>
+                <path d="M44,29 L46,29 L46,23 C46,10.3 35.7,0 23,0 C10.3,0 0,10.3 0,23 L0,29 L2,29" id="Shape" stroke="#E29454" stroke-width="2" sketch:type="MSShapeGroup"></path>
             </g>
         </g>
     </g>

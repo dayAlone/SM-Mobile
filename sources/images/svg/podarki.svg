@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="33px" height="34px" viewBox="0 0 33 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.0.2 (7799) - http://www.bohemiancoding.com/sketch -->
+<svg width="34px" height="36px" viewBox="0 0 34 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.3 (7891) - http://www.bohemiancoding.com/sketch -->
     <title>podarki</title>
-    <description>Created with Sketch.</description>
+    <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Nav" sketch:type="MSArtboardGroup" transform="translate(-26.000000, -929.000000)" stroke="#252324">
-            <g id="podarki" sketch:type="MSLayerGroup" transform="translate(25.000000, 930.000000)">
-                <path d="M1.5,11.5 L33.5,11.5" id="Line-39" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-                <path d="M33.5,11.5 L33.5,5.5" id="Line-37" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-                <path d="M1.5,11.5 L1.5,5.5" id="Line-40" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-                <path d="M3.5,11.5 L3.5,32.5" id="Line" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-                <path d="M31.5,11.5 L31.5,32.5" id="Line" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-                <path d="M3.5,32.5 L31.5,32.5" id="Line" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-                <path d="M33.5,5.5 L1.5,5.5" id="Line-38" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-                <path d="M14.5,6.5 L14.5,32.5" id="Line" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-                <path d="M20.5,6.5 L20.5,32.5" id="Line-34" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-                <path d="M17.550293,5.52258301 C17.550293,5.52258301 12.7220459,-2.07165527 9.35742188,0.465087891 C6.94543457,2.44006348 9.96533203,5.51342773 9.96533203,5.51342773 L17.550293,5.52258301 Z M17.550293,5.52258301 C17.550293,5.52258301 12.7220459,-2.07165527 9.35742188,0.465087891 C6.94543457,2.44006348 9.96533203,5.51342773 9.96533203,5.51342773 L17.550293,5.52258301 Z M17.4231346,5.52258301 C17.4231346,5.52258301 22.2513816,-2.07165527 25.6160057,0.465087891 C28.027993,2.44006348 25.0080955,5.51342773 25.0080955,5.51342773 L17.4231346,5.52258301 Z M17.4231346,5.52258301 C17.4231346,5.52258301 22.2513816,-2.07165527 25.6160057,0.465087891 C28.027993,2.44006348 25.0080955,5.51342773 25.0080955,5.51342773 L17.4231346,5.52258301 Z" id="Path-177" sketch:type="MSShapeGroup"></path>
+        <g id="Nav-2" sketch:type="MSArtboardGroup" transform="translate(-25.000000, -839.000000)" stroke-width="2">
+            <g id="podarki" sketch:type="MSLayerGroup" transform="translate(25.000000, 840.000000)">
+                <path d="M17.550293,5.52258301 C17.550293,5.52258301 12.7220459,-2.07165527 9.35742188,0.465087891 C6.94543457,2.44006348 9.96533203,5.51342773 9.96533203,5.51342773 L17.550293,5.52258301 Z M17.550293,5.52258301 C17.550293,5.52258301 12.7220459,-2.07165527 9.35742188,0.465087891 C6.94543457,2.44006348 9.96533203,5.51342773 9.96533203,5.51342773 L17.550293,5.52258301 Z M17.4231346,5.52258301 C17.4231346,5.52258301 22.2513816,-2.07165527 25.6160057,0.465087891 C28.027993,2.44006348 25.0080955,5.51342773 25.0080955,5.51342773 L17.4231346,5.52258301 Z M17.4231346,5.52258301 C17.4231346,5.52258301 22.2513816,-2.07165527 25.6160057,0.465087891 C28.027993,2.44006348 25.0080955,5.51342773 25.0080955,5.51342773 L17.4231346,5.52258301 Z" id="Path-177" stroke="#E29454" sketch:type="MSShapeGroup"></path>
+                <path d="M1.49120724,13 L32.9284705,13" id="Line-39" stroke="#252324" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                <path d="M33,12.9445801 L33,7.45727539" id="Line-37" stroke="#252324" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                <path d="M1,12.9445801 L1,7.45727539" id="Line-40" stroke="#252324" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                <path d="M3,13.3157416 L3,33.6122097" id="Line" stroke="#252324" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                <path d="M31,13.3157416 L31,33.6122097" id="Line" stroke="#252324" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                <path d="M3.5,34 L31,34" id="Line" stroke="#252324" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                <path d="M32.9284705,7 L1.49120724,7" id="Line-38" stroke="#252324" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                <path d="M14,8.48324924 L14,33.6122097" id="Line" stroke="#252324" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                <path d="M20,8.48324924 L20,33.6122097" id="Line-34" stroke="#252324" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
             </g>
         </g>
     </g>

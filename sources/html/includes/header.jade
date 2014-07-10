@@ -6,19 +6,11 @@ head
 	meta(name="apple-mobile-web-app-capable", content="yes")
 	meta(name="mobile-web-app-capable", content="yes")
 	meta(name="apple-mobile-web-app-status-bar-style", content="black-translucent")
-	link(href="//fnt.webink.com/wfs/webink.css/?project=3601473F-859F-4535-BB08-4483C83B84D5&fonts=E2760A8D-7C6C-F53E-5395-BE9CDB1B4178:f=CirceWeb-Light,A6D35641-6598-78D4-C742-D050FEFAC82C:f=CirceWeb-Bold,C33C035F-AE6C-0565-A037-3797D41C2B18:f=CirceWeb-ExtraLight,227F9941-44EA-CCB4-933C-BE44A0BEC7FA:f=CirceWeb-ExtraBold,5D3863ED-56C0-05C2-6E9D-B78930F6FC51:f=CirceWeb-Regular", rel="stylesheet", type="text/css")
-	link(href="/layout/css/frontend.css", rel="stylesheet")
 	title Supermerkado.ru
-<body>
+<body style="display: none">
 
 #nav
 	ul
-
-		li
-			a.call(href="tel:88003339253")
-				span.icon
-					include ../../../public_html/layout/images/svg/call.svg
-				span.text 8 800 333 92 53
 		li
 			a
 				span.icon
@@ -96,9 +88,6 @@ head
 				span.text Автолюбителям
 		li
 			a.gray
-				span.text Вход/Регистрация
-		li
-			a.gray
 				span.text Способы оплаты
 		li
 			a.gray
@@ -106,19 +95,64 @@ head
 		li
 			a.gray
 				span.text Сервисная информация
-		li
-			a.gray
-				span.text Контакты
+
+#profile.block.popup
+	.bar
+		.container-fluid
+			.row
+				.col-xs-12.center
+					span.title Личный кабинет
+	.content
+		.elements
+			.switcher
+				a(href="#login").left.active Вход
+				a(href="#signup").right Регистрация
+			#login.item.active.switch-item
+				input(type="text", placeholder="Эл. почта")
+				input(type="password", placeholder="Пароль")
+				input(type="submit", value="Войти")
+			#signup.item.switch-item
+				input(type="text", placeholder="Фамилия Имя Отчество")
+				input(type="text", placeholder="Эл. почта")
+				input(type="text", placeholder="Номер телефона")
+				input(type="password", placeholder="Пароль")
+				input(type="password", placeholder="Подтверждение")
+				input(type="submit", value="Зарегистрироваться")
+
+#contacts.block.popup
+	.bar
+		.container-fluid
+			.row
+				.col-xs-12.center
+					span.title Контакты
+	.content
+		.elements
+			a.center.phone(href="tel:88003339253") 8 800 333 92 53
+			a.mail(href="mailto:info@supermerkado.ru") info@supermerkado.ru
+			.address г. Москва, ул. Николоямская, д. 49, ст. 5
+			.social.center
+				a
+					include ../../../public_html/layout/images/svg/vk.svg
+				a
+					include ../../../public_html/layout/images/svg/fb.svg
+				a
+					include ../../../public_html/layout/images/svg/gp.svg
+				a
+					include ../../../public_html/layout/images/svg/is.svg
+				a
+					include ../../../public_html/layout/images/svg/lj.svg
+			script(src="//api-maps.yandex.ru/2.1/?lang=ru_RU&load=package.full", type="text/javascript")
+			#map
 
 #cart.block.popup
 	.bar
 		.container-fluid
 			.row
-				.col-xs-4
-					a.back(href="#")
-						include ../../../public_html/layout/images/svg/back.svg
-						span.text Назад
-				.col-xs-4.center
+				//	.col-xs-4
+						a.back(href="#")
+							include ../../../public_html/layout/images/svg/back.svg
+							span.text Назад
+				.col-xs-4.col-xs-offset-4.center
 					span.title Корзина
 	.content
 		.elements
@@ -127,7 +161,7 @@ head
 					.color
 						include ../../../public_html/layout/images/svg/corner.svg
 					.row
-						.col-xs-4
+						.col-xs-4.center
 							.image(style="background-image:url(#{item.image}); #{item.bsize ? 'background-size: cover' : ''}")
 						.col-xs-8
 							.text
@@ -143,7 +177,7 @@ head
 							.price.center
 								span &times; #{item.price}
 								include ../../../public_html/layout/images/svg/currency2.svg
-						.col-xs-4
+						.col-xs-4.right
 							.total.right
 								span = #{item.price}
 								include ../../../public_html/layout/images/svg/currency2.svg
@@ -171,70 +205,81 @@ head
 					span.title Оформление заказа
 	.content
 		.elements
-			.title Информация о покупателе
-			.item
-				input(type="text", placeholder="Фамилия Имя Отчество")
-				input(type="text", placeholder="Город")
-				input(type="text", placeholder="Адрес")
-				input(type="email", placeholder="Электронная почта")
-				input(type="tel", placeholder="Номер телефона")
-			.delivery
-				.title Служба доставки
+			.switcher
+				a(href="#full-order").left.active Полная форма
+				a(href="#short-order").right Оформить в 1 клик
+			#full-order.active.switch-item
+				.title.first Информация о покупателе
+				.user-info
+					.item
+						input(type="text", placeholder="Фамилия Имя Отчество")
+						input(type="text", placeholder="Город")
+						input(type="text", placeholder="Адрес")
+						input(type="email", placeholder="Электронная почта")
+						input(type="tel", placeholder="Номер телефона")
+				.delivery
+					.title Служба доставки
+					.item
+						.row
+							.col-xs-2
+								input(type="radio", name="delivery", checked)#i1
+							.col-xs-10
+								label(for="i1")
+									h3 Multiship (СДЭК)
+									p
+										| Стоимость: 255.00 руб. <br> Срок доставки (дней): 3 дн 
+						.row
+							.col-xs-2
+								input(type="radio", name="delivery")#i2
+							.col-xs-10
+								label(for="i2")
+									h3 Multiship (Курьер Сервис Экспресс)
+									p
+										| Стоимость: 481.00 руб.<br>Срок доставки: 3 дн 
+						.row
+							.col-xs-2
+								input(type="radio", name="delivery")#i3
+							.col-xs-10
+								label(for="i3")
+									h3 Multiship (Самовывоз)
+									p
+										| Стоимость: 255.00 руб. <br> Срок доставки (дней): 3 дн 
+				.money
+					.title Системы оплаты
+					.item
+						.row
+							.col-xs-2
+								input(type="radio", name="money", checked)#z1
+							.col-xs-10
+								label(for="z1").center
+									include ../../../public_html/layout/images/svg/webmoney.svg
+						.row
+							.col-xs-2
+								input(type="radio", name="money")#z2
+							.col-xs-10
+								label(for="z2").center
+									include ../../../public_html/layout/images/svg/yandex.svg
+						.row
+							.col-xs-2
+								input(type="radio", name="money")#z3
+							.col-xs-10
+								label(for="z3").center
+									include ../../../public_html/layout/images/svg/card.svg
+						.row
+							.col-xs-2
+								input(type="radio", name="money")#z4
+							.col-xs-10
+								label(for="z4").center
+									include ../../../public_html/layout/images/svg/qiwi.svg
+				.title Дополнительная информация
 				.item
-					.row
-						.col-xs-2
-							input(type="radio", name="delivery", checked)#i1
-						.col-xs-10
-							label(for="i1")
-								h3 Multiship (СДЭК)
-								p
-									| Стоимость: 255.00 руб. <br> Срок доставки (дней): 3 дн 
-					.row
-						.col-xs-2
-							input(type="radio", name="delivery")#i2
-						.col-xs-10
-							label(for="i2")
-								h3 Multiship (Курьер Сервис Экспресс)
-								p
-									| Стоимость: 481.00 руб.<br>Срок доставки: 3 дн 
-					.row
-						.col-xs-2
-							input(type="radio", name="delivery")#i3
-						.col-xs-10
-							label(for="i3")
-								h3 Multiship (Самовывоз)
-								p
-									| Стоимость: 255.00 руб. <br> Срок доставки (дней): 3 дн 
-			.money
-				.title Системы оплаты
-				.item
-					.row
-						.col-xs-2
-							input(type="radio", name="money", checked)#z1
-						.col-xs-10
-							label(for="z1").center
-								include ../../../public_html/layout/images/svg/webmoney.svg
-					.row
-						.col-xs-2
-							input(type="radio", name="money")#z2
-						.col-xs-10
-							label(for="z2").center
-								include ../../../public_html/layout/images/svg/yandex.svg
-					.row
-						.col-xs-2
-							input(type="radio", name="money")#z3
-						.col-xs-10
-							label(for="z3").center
-								include ../../../public_html/layout/images/svg/card.svg
-					.row
-						.col-xs-2
-							input(type="radio", name="money")#z4
-						.col-xs-10
-							label(for="z4").center
-								include ../../../public_html/layout/images/svg/qiwi.svg
-			.title Дополнительная информация
-			.item
-				textarea
+					textarea
+			#short-order.switch-item
+				.title.first Информация о покупателе
+				.user-info
+					.item
+						input(type="text", placeholder="Фамилия Имя Отчество")
+						input(type="tel", placeholder="Номер телефона")
 			a.order
 				include ../../../public_html/layout/images/svg/order.svg
 				span Оформить заказ 
@@ -290,3 +335,7 @@ head
 			.text
 				h2 У вас ваза светится!
 				p Потому что, это оригинальный светильник выполнен в виде вазы. Он может работать день и ночь, не уставая и не перегорая. Достаточно его немного встряхнуть, чтобы он загорелся. Компактный, легкий и очень красивый светильник продается в интернет-магазине supermerkado.ru. Его можно поставить в любой комнате, но лучше всего он будет смотреться в спальне. 
+	.bottom-fade
+		a.order.toggle(href="#order").one-click
+			include ../../../public_html/layout/images/svg/order.svg
+			span Купить в 1 клик

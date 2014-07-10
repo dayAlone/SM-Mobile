@@ -2,9 +2,11 @@
   "name": "merkado-mobile",
   "version": "0.1.0",
   "devDependencies": {
+    "css-parse": "^1.5.3",
     "grunt": "^0.4.5",
     "grunt-autoprefixer": "^0.7.3",
     "grunt-bower-task": "^0.3.4",
+    "grunt-combine-media-queries": "^1.0.15",
     "grunt-contrib-coffee": "^0.10.1",
     "grunt-contrib-concat": "^0.4.0",
     "grunt-contrib-copy": "^0.5.0",

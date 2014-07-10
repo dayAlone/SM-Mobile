@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="48px" height="47px" viewBox="0 0 48 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.0.2 (7799) - http://www.bohemiancoding.com/sketch -->
+<svg width="19px" height="18px" viewBox="0 0 19 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.3 (7891) - http://www.bohemiancoding.com/sketch -->
     <title>plus</title>
-    <description>Created with Sketch.</description>
+    <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Cart" sketch:type="MSArtboardGroup" transform="translate(-146.000000, -329.000000)" fill="#90B04B">
-            <g id="Product-7" sketch:type="MSLayerGroup" transform="translate(20.000000, 121.000000)">
-                <g id="Tools" transform="translate(17.000000, 59.000000)" sketch:type="MSShapeGroup">
-                    <g id="plus" transform="translate(110.000000, 149.000000)">
-                        <path d="M15.0158418,24.0180024 L23.023206,24.0180024 L23.023206,32.103108 L24.0338442,32.103108 L24.0338442,24.0180024 L32.1189498,24.0180024 L32.1189498,23.0073642 L24.0338442,23.0073642 L24.0338442,15 L23.023206,15 L23.023206,23.0073642 L15.0158418,23.0073642 L15.0158418,24.0180024 Z" id="+"></path>
-                        <path d="M-0.0310444079,23.4805201 C-0.0310444079,36.4549254 10.4839365,46.972759 23.4611945,46.972759 C36.4355998,46.972759 46.9534334,36.4577781 46.9534334,23.4805201 C46.9534334,10.5061149 36.4384525,-0.01171875 23.4611945,-0.01171875 C10.4867892,-0.01171875 -0.0310444079,10.5032622 -0.0310444079,23.4805201 Z M45.9534334,23.4805201 C45.9534334,35.9044894 35.8843191,45.972759 23.4611945,45.972759 C11.0372253,45.972759 0.968955592,35.9036448 0.968955592,23.4805201 C0.968955592,11.0565509 11.0380699,0.98828125 23.4611945,0.98828125 C35.8851637,0.98828125 45.9534334,11.0573955 45.9534334,23.4805201 Z" id="Rectangle-9"></path>
+        <g id="Cart-2" sketch:type="MSArtboardGroup" transform="translate(-162.000000, -234.000000)" fill="#90B04B">
+            <g id="Product-7-+-Product-9-+-Product-8" sketch:type="MSLayerGroup" transform="translate(20.000000, 11.000000)">
+                <g id="Product-7" sketch:type="MSShapeGroup">
+                    <g id="Tools" transform="translate(32.000000, 59.000000)">
+                        <g id="plus" transform="translate(110.000000, 164.000000)">
+                            <path d="M0.0158419156,10.0244141 L8.02320611,10.0244141 L8.02320611,17.9945068 L10.0385745,17.9945068 L10.0385745,10.0244141 L18.028686,10.0244141 L18.0286859,8.00736427 L10.0385744,8.00736419 L10.0385744,0 L8.02320599,0 L8.02320599,8.00736419 L0.0158417967,8.00736419 L0.0158419156,10.0244141 Z" id="+"></path>
+                        </g>
                     </g>
                 </g>
             </g>

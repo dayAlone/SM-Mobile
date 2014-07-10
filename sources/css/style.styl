@@ -13,14 +13,14 @@ html
 	overflow hidden
 
 body
-	background #f1f1f1
+	background #f3f2f0
 	font-family: CirceWeb-Regular
 	full-width()
 	overflow-x hidden
 	position relative
 	min-height 100%
 	&.open-side
-		#catalog, #nav
+		#catalog, #nav, #bottom-nav
 			transform: translateX(262px)
 		#catalog
 			.bar
@@ -48,6 +48,9 @@ body
 .animated
 	animation-duration: .5s
 
+transition()
+	transition-property(all)
+	transition-duration(.2s)
 a
 	transition-property(all)
 	transition-duration(.4s)
@@ -65,16 +68,18 @@ a
 		top 0
 		left 0
 		padding-right 0
-
+		padding-bottom 30px
+	
 .block
 	full-width()
 	position relative
 	height 100%
+	
 	&.popup
 		display none
-		z-index 300
+		z-index 240
 		position fixed
-		background #f1f1f1
+		background #f3f2f0
 	.bar
 		height 50px
 		line-height: 47px
@@ -116,7 +121,7 @@ a
 				svg
 					max-width 27px
 					path
-						fill red
+						fill black
 			&.cart
 				svg
 					max-width 27px
@@ -124,6 +129,7 @@ a
 						g
 							fill red
 			&.logo
+				full-width()
 				svg
 					max-width  150px
 			&.back
@@ -163,126 +169,242 @@ a
 		-webkit-overflow-scrolling: touch
 		overflow-y scroll
 		overflow-x hidden
-		.frame
-			padding-right 10px
+		.switcher
 			full-width()
+			@media screen and (min-width: 768px)
+				max-width 400px
+				margin-left -200px
+				left 50%
+				position relative
+			border-radius 3px
+			.left
+				border-radius 5px 0px 0px 5px
+				
+				left 1px
+			a
+				position relative
+				float left
+				color #707984
+				border-radius 0px 5px 5px 0px
+				border 1px solid #707984
+				opacity .6
+				line-height 25px
+				width 50%
+				text-align center
+				border-collapse collapse
+				&.active
+					border-color orange
+					color orange
+					opacity 1
+					z-index 2
+					
 		.elements
 			full-width()
 			position relative
+			overflow hidden
+			padding 0 10px
+			.user-info
+				@media screen and (min-width: 768px)
+					max-width 400px
+					margin 0 auto
 			.item
-				width 50%
-				@media screen and (min-width: 480px)
-					width 33.33333333%
-				@media screen and (min-width: 600px)
-					width 25%
-				@media screen and (min-width: 960px)
-					width 16.6666666667%
-				@media screen and (min-width: 1200px)
-					width 12.5%
 				float left
-				a.image
-					full-width()
-					height 130px
-					border-radius 4px 4px 0 0
+				width 100%
+				border-bottom 1px solid #d0cfcf
+				margin-top 15px
+				&:first-of-type
+					margin-top 10px
+				
+				> .row
+					margin 0
+					margin-bottom 10px
+					> div
+						&:first-of-type
+							padding-left 0
+						&:last-of-type
+							padding-right 0
+						padding 0 5px
+				.image
+					display inline-block
+					box-shadow inset 0 0 0 3px #f3f2f0
 					background-size contain
 					background-position center center
-					background-repeat no-repeat
-					background-color white
-				.item-content
-					.wrap
-						full-width()
-						padding 7px 7px 3px 7px
-					width 100%
-					margin-left 10px
-					margin-bottom 10px
-					background white
-					border-radius 4px
+					height 84px
+					width 84px
+					border-radius 10px
+					border 2px solid #f5a623
+				.name
 					float left
-					a
-						&.name
-							font-size 12px
-							line-height 12px
-							float left
-							width 100%
-							color gray
-							margin-bottom 5px
-						&.buy
-							font-family: CirceWeb-ExtraBold
-							font-size 6px
-							text-transform uppercase
-							color orange
-							float right
-							full-width()
-							position relative
-							.content
-								white-space nowrap
-								text-align center
-								padding 5px 5px 4px
-								full-width()
-								&:after
-									content: '';
-									position: absolute;
-									top: 0;
-									border-radius 20px
-									left: 0%;
-									border: 1px solid orange;
-									box-sizing: border-box;
-									width: 100%;
-									height: 100%;
-									//transform: scale(0.5);
-									transform-origin: left top;
+					full-width()
+					font-size 17px
+					line-height 17px
+					color black
+					height 37px
+					margin-top 5px
+					margin-bottom 10px
+					overflow hidden
+					font-family CirceWeb-Light
+				
+				.buy
+					full-width()
+					height 30px
+					background white
+					border-radius 30px
+					line-height 29px
+					margin-top -1px
+					text-align center
+					box-shadow inset 0 0 0 3px #f3f2f0
+					border 2px solid #f5a623
+					text-transform uppercase
+					font-size 9px
+					font-family 'CirceWeb-Bold'
+					color #333
+				.price
+					font-size 22px
+					letter-spacing 1px
+					font-family CirceWeb-Bold
+					svg
+						height 16px
+						display inline-block
+						position relative
+						top 0px
+						margin-left 3px
+						path
+							fill #333333
+				@media screen and (min-width: 480px)
+					&:first-of-type
+						margin-top 15px
+					width 50%
+					&:nth-child(2n+1)
+						padding-right 10px
+					&:nth-child(2n)
+						padding-left 10px
+					.image
+						height 65px
+						width 65px
+					.buy
+						width 115%
+						float right
 					.price
-						color gray
-						font-size 15px
-						font-family: CirceWeb-Bold
-						font-weight 600
+						font-size 16px
+						margin-top 5px
 						svg
-							max-height 11px
-							position relative
-							margin-left 0px
-							g
-								fill gray
-
+							height 11px
+							margin-left 0
+				@media screen and (min-width: 500px)
+					width (100/2)%
+					.image
+						height 84px
+						width 84px
+					.price
+						font-size 22px
+						margin-top 0px
+						svg
+							height 16px
+							margin-left 3px
+					.buy
+						width 100%
+				@media screen and (min-width: 960px)
+					width (100/3)%
+				@media screen and (min-width: 1200px)
+					width (100/4)%
 	.bottom-fade
 		position fixed
 		pointer-events none
 		height 100px
 		width 100%
-		bottom 0
+		bottom 50px
 		left 0
 		z-index 200
-		background-image: linear-gradient(rgba(241,241,241,0.00) 0%, #F1F1F1 70%)
 		text-align center
 		&.on
+			background-image: linear-gradient(rgba(241,241,241,0.00) 0%, #f3f2f0 70%)
 			pointer-events auto
 			a
 				opacity 1
 		a
 			margin-top 55px
 			opacity 0
-			width 157px
+			width 133px
 			height 30px
 			line-height 26px
-			border 1px solid gray
 			display inline-block
 			border-radius 33px
 			background rgba(255,255,255,.5)
 			text-transform uppercase
 			font-family CirceWeb-Bold
-			font-size 12px
-			color gray
+			font-size 10px
+			color black
+			background white
+			border 2px solid orange
+			box-shadow inset 0 0 0 3px #f3f2f0
 			svg
 				max-height 19px
 				display inline-block
 				vertical-align middle
 				top -1px
 				position relative
-				g
-					fill gray
+				path
+					stroke #333333
+					fill #333333
 			span
 				display inline-block
 				vertical-align middle
-				margin 0 10px
+				margin 0 10px 0 5px
+
+#bottom-nav
+	transition()
+	position fixed
+	width 100%
+	height 50px
+	background rgba(255,255,255,.98)
+	z-index 250
+	bottom 0
+	box-shadow 0 0px 25px rgba(0,0,0,.2)
+	div
+		padding 0
+	.row
+		margin 0
+		position relative
+		left 7px
+	a
+		line-height 50px
+		padding-top 7px
+		vertical-align middle
+		position relative
+		font-size 10px
+		line-height 12px
+		display inline-block
+		color #333
+		svg
+			display inline-block
+			max-height 23px
+			> g > path, > path
+				stroke #333
+		.counter
+			position absolute
+			background red
+			top 5px
+			right 5px
+			width 15px
+			opacity 1
+			box-shadow 0 0 0 2px white
+			line-height 17px
+			border-radius 15px
+			display none
+			height 15px
+			color white
+			font-family 'CirceWeb-Bold'
+		&.active
+			color orange
+			font-family 'CirceWeb-Bold'
+			svg
+				> g > path, > path
+					stroke orange
+					stroke-width 2px
+				g g
+					fill orange
+					stroke orange
 
 #catalog
 	.fotorama
@@ -306,7 +428,7 @@ a
 	background white
 	left -262px
 	top 0
-	z-index 200
+	z-index 270
 	height 100%
 	overflow scroll
 	pointer-events none
@@ -314,7 +436,7 @@ a
 		pointer-events auto
 	-webkit-overflow-scrolling: touch
 	box-shadow inset -15px 0 15px -15px rgba(0,0,0,0.4)
-	background #f1f1f1
+	background #f3f2f0
 	ul
 		margin 0
 		padding 0
@@ -337,10 +459,11 @@ a
 				background white
 				font-family: CirceWeb-Regular
 				svg
-					top -3px
+					g
+						stroke-width 2px
 				&.active
 					font-family: CirceWeb-Bold
-					color green
+					color orange
 					.text
 						opacity 1
 					svg
@@ -348,7 +471,7 @@ a
 						g
 							stroke-width 3px
 						path, circle
-							stroke green
+							stroke orange
 				&.call
 					background green
 					background-image linear-gradient(-90deg, rgba(255,255,255,0.25) 0%, rgba(0,0,0,0) 100%)
@@ -367,16 +490,18 @@ a
 					display none
 				&.gray
 					background transparent
-					background #f1f1f1
+					background #f3f2f0
 				.icon
 					width 50px
+					height 42px
 					position absolute
 					text-align center
+					vertical-align middle
 					display inline-block
 					svg
 						display inline-block
 						position relative
-						top 0px
+						top -3px
 						transform: scale(0.6)
 						vertical-align middle
 				.text
@@ -395,8 +520,10 @@ a
 
 #cart
 	.bottom-fade
-		padding 0 9px
+		padding 0 10px
+		padding-top 13px
 		pointer-events auto
+		background-image: linear-gradient(rgba(241,241,241,0.00) 0%, #f3f2f0 70%)
 		input
 			opacity 0
 		&.on
@@ -409,41 +536,56 @@ a
 			color green
 			border-color green
 			full-width()
+			text-align center
 			float right
-			min-width 160px
 			max-width 160px
+			min-width 160px
 			background white
 			span
-				margin 0 5px 0 0
+				margin 0 15px 0 0
 			svg
+				g, path
+					stroke green
 				path
 					fill none
 		.total
 			font-size 27px
 			full-width()
+			font-family 'CirceWeb-Light'
 			position relative
 			top -1px
 			text-align left
 			svg
-				max-height 20px
+				max-height 19px
 				margin-left 2px
 	.content
 		padding-left 10px
-		padding-bottom 100px
+		padding-bottom 140px
+		z-index 2
+		position relative
+		.elements
+			padding 0
 		.item
 			full-width()
-			@media screen and (max-width: 1024px)
-				width 31.333333%
+			margin 0
+			
+			@media screen and (min-width: 768px)
+				width 48%
 				margin 0 1% 12px
-			@media screen and (max-width: 768px)
-				width 47%
-				margin 0 1.5% 12px
+			@media screen and (min-width: 1024px)
+				width 31.933333%
+				margin 0 .7% 12px
+			@media screen and (min-width: 1280px)
+				width 24%
+				margin 0 .5% 12px
 			padding 7px 7px 4px 7px
 			margin-bottom 12px
 			background white
 			border-radius 4px
 			overflow hidden
 			position relative
+			.row
+				margin 0
 			.color
 				position absolute
 				top -10px
@@ -453,19 +595,21 @@ a
 					path
 						fill white
 			.image
-				full-width()
-				border-radius 3px
+				display inline-block
 				background-size contain
 				background-position center center
 				background-repeat no-repeat
+				border-radius 10px
 				height 81px
-				margin-bottom 7px
+				margin 3px 0
 				width 81px
 			.text
 				full-width()
 				height 81px
-				font-size 16px
-				line-height 16px
+				font-size 18px
+				font-family 'CirceWeb-Light'
+				line-height 18px
+				margin-top 3px
 				position relative
 				span
 					position absolute
@@ -477,35 +621,62 @@ a
 				height 37px
 				line-height 27px
 				font-size 15px
+				
 				div, span
 					position relative
 					padding 0
 				.count
-					left 3px
+					left 0px
 				.price, .total
 					full-width()
+					font-family 'CirceWeb-Light'
 					font-size 20px
+					svg
+						width 13px
+						g
+							fill black
 				.total
-					padding-right 10px
+					padding-right 0px
+					font-family 'CirceWeb-Regular'
+					svg
+						margin-left 4px
 				svg
 					display inline-block
 					max-height 14px
 				a
+					&.plus, &.minus
+						width 30px
+						text-align center
+						line-height 25px
+						box-shadow inset 0 0 0 2px #f3f2f0
+						svg
+							display inline-block
+							width 10px
+							height 10px
 					&.plus
 						position absolute
-						right -3px
+						right 6px
 						top 0
+						height 25px
+						width 25px
+						border-radius 30px
+						border 1px solid green
 					&.minus
 						position absolute
-						left 3px
+						left 6px
 						top 0
+						height 25px
+						width 25px
+						border-radius 30px
+						border 1px solid red
 					svg
 						max-height 25px
 	input.order
 		full-width()
 		box-shadow none
 		border-radius 4px
-		border 1px solid orange
+		box-shadow inset 0px 0 0 1px orange
+		border 0
 		margin-bottom 15px
 		appearance none
 		text-align center
@@ -516,15 +687,25 @@ a
 			color orange
 			text-align center
 
-#order
+#order, #profile
+	.switcher
+		margin-bottom 10px
+		a.left
+			width 45%
+		a.right
+			width 55%
+	#full-order, #short-order
+		display none
+		&.active
+			display block
 	.content
 		padding-left 10px
 		.delivery, .money
-			@media screen and (max-width: 1024px)
+			@media screen and (min-width: 768px)
 				width 49%
 				float left
 		.delivery
-			@media screen and (max-width: 1024px)
+			@media screen and (min-width: 768px)
 				margin-right 2%
 		.item
 			padding 8px 8px 0 8px
@@ -533,9 +714,7 @@ a
 			border-radius 4px
 			overflow hidden
 			background white
-			
-			& + .title
-				margin-top 18px
+
 			.row
 				position relative
 				padding-bottom 4px
@@ -550,7 +729,7 @@ a
 				float left
 				width 20px
 				height 20px
-				left 26px
+				left 13px
 				border-radius 20px
 				margin-top -3px
 				border 1px solid #dcdcdc
@@ -564,9 +743,9 @@ a
 			label
 				font-weight normal
 				full-width()
-				@media screen and (max-width: 1024px)
+				@media screen and (min-width: 768px)
 					margin-left -30px
-				@media screen and (max-width: 768px)
+				@media screen and (min-width: 768px)
 					margin-left 0px
 				svg
 					margin 5px 0 0 -40px
@@ -593,6 +772,11 @@ a
 				margin-bottom 8px
 				&::-webkit-input-placeholder
 					text-align center
+			input[type="submit"]
+				border-color green
+				color green
+				padding-bottom 3px
+				background white
 			textarea
 				height 80px
 		.title
@@ -601,24 +785,27 @@ a
 			full-width()
 			color gray
 			font-size 11px
-			margin-top 5px
+			margin-top 18px
 			text-align center
+			&.first
+				margin-top 5px
 	a.order
 		full-width()
 		width 84%
-		@media screen and (max-width: 1024px)
-			max-width 300px
+		@media screen and (min-width: 768px)
+			max-width 250px
 			left 50%
-			margin-left -150px
+			margin-left -125px
 			position relative
 		margin-left 8%
-		border 1px solid green
+		border 2px solid green
+		box-shadow inset 0 0 0 3px #f3f2f0
 		border-radius 30px
 		background white
-		padding-right 2%
+		padding-right 3%
 		text-transform uppercase
 		color green
-		font-size 19px
+		font-size 15px
 		font-family CirceWeb-Bold
 		line-height 39px
 		height 40px
@@ -631,19 +818,88 @@ a
 			margin-right 10px
 			display inline-block
 			vertical-align middle
-		
+
+#contacts
+	#map
+		full-width()
+		height 300px
+		@media screen and (min-width: 768px)
+			height 650px
+	.content, .elements
+		padding-left 0
+		padding-right 0
+	.elements
+		padding-bottom 50px
+
+	.phone, .mail
+		full-width()
+		font-size 34px
+		color #333
+	.phone
+		font-family 'CirceWeb-Bold'
+		@media screen and (min-width: 768px)
+			font-size 40px
+	.mail
+		font-size 18px
+		color #333
+		text-align center
+	.address
+		full-width()
+		margin-top 10px
+		text-align center
+	.social
+		full-width()
+		padding 15px 0
+		text-align center
+		a
+			opacity .5
+			display inline-block
+			margin 0 8px
+	iframe
+		max-width 100%
+
+#order
+	z-index 2500
+
+#profile
+	.content
+		@media screen and (min-width: 768px)
+			max-width 400px
+			margin 0 auto
+			float none
+			.switcher
+				margin-left -180px
+		.elements
+			.item
+				display none
+				&.active
+					display block
+	
 #product
+	z-index 2000
+	.bottom-fade
+		z-index 4000
+		bottom 0
+		a
+			width 155px
+			color black
+			svg
+				g, path
+					fill none
+	.elements
+		padding 0
 	&.block
 		.content
 			padding-right 0
+			padding-top 50px
 	.fotorama
 		margin-top -12px
 		.fotorama__stage
-			@media screen and (max-width: 1024px)
+			@media screen and (min-width: 768px)
 				height 440px !important
 				.item
 					background-size contain
-			@media screen and (max-width: 768px)
+			@media screen and (min-width: 768px)
 				height 640px !important
 				.item
 					background-size cover
@@ -694,6 +950,7 @@ a
 		.price
 			margin-top 12px
 			overflow hidden
+			font-family 'CirceWeb-Light'
 			full-width()
 			a.order
 				svg
@@ -704,8 +961,10 @@ a
 					top -1px
 				float right
 				width 165px
+				background white
 				padding-right 5px
-				border 1px solid green
+				border 2px solid green
+				box-shadow inset 0 0 0 3px #f3f2f0
 				height 35px
 				line-height 34px
 				text-transform uppercase
@@ -731,7 +990,9 @@ a
 			background white
 			h2
 				font-size 22px
-			
+
+body
+	display block !important
 
 @keyframes zoomIn
 	0%

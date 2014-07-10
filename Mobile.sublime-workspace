@@ -319,7 +319,7 @@
 			"file": "bower.json",
 			"settings":
 			{
-				"buffer_size": 708,
+				"buffer_size": 733,
 				"line_ending": "Unix",
 				"name": "{"
 			}
@@ -328,7 +328,7 @@
 			"file": "Gruntfile.coffee",
 			"settings":
 			{
-				"buffer_size": 5790,
+				"buffer_size": 5848,
 				"line_ending": "Unix"
 			}
 		},
@@ -344,15 +344,7 @@
 			"file": "sources/js/script.coffee",
 			"settings":
 			{
-				"buffer_size": 2532,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sources/css/style.styl",
-			"settings":
-			{
-				"buffer_size": 14019,
+				"buffer_size": 3792,
 				"line_ending": "Unix"
 			}
 		}
@@ -360,7 +352,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 101.0,
+		"height": 400.0,
 		"selected_items":
 		[
 			[
@@ -372,7 +364,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 610.0
+		"width": 601.0
 	},
 	"console":
 	{
@@ -392,6 +384,7 @@
 	},
 	"file_history":
 	[
+		"/Users/slider/Documents/Projects/Merkado/mobile_html/sources/css/style.styl",
 		"/Users/slider/Documents/Projects/Merkado/mobile_html/Readme.md",
 		"/Users/slider/Documents/Projects/Merkado/mobile_html/sources/js/script.coffee",
 		"/Users/slider/Documents/Projects/Merkado/mobile_html/package.json",
@@ -518,8 +511,7 @@
 		"/Users/slider/Documents/Merkado/bitrix/templates/supermerkado/footer.php",
 		"/Users/slider/Documents/Merkado/include/menu.left.php",
 		"/Users/slider/Documents/Merkado/layout/js/metrics.js",
-		"/Users/slider/Documents/Merkado/bitrix/templates/supermerkado/components/bitrix/news.list/index-banner/template.php",
-		"/Users/slider/Documents/Merkado/bitrix/modules/import/classes/general/CImportHandlers.php"
+		"/Users/slider/Documents/Merkado/bitrix/templates/supermerkado/components/bitrix/news.list/index-banner/template.php"
 	],
 	"find":
 	{
@@ -703,7 +695,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -712,7 +704,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 708,
+						"buffer_size": 733,
 						"regions":
 						{
 						},
@@ -856,7 +848,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -865,7 +857,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5790,
+						"buffer_size": 5848,
 						"regions":
 						{
 						},
@@ -1003,13 +995,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"file": "public_html/layout/images/fotorama@2x.png",
 					"semi_transient": true,
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "image"
 				},
 				{
@@ -1159,7 +1151,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -1168,7 +1160,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2532,
+						"buffer_size": 3792,
 						"regions":
 						{
 						},
@@ -1196,50 +1188,6 @@
 									"selector": "text.html"
 								}
 							],
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "sources/css/style.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 14019,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"auto_name": "",
 							"codeintel": true,
 							"codeintel_config":
 							{
@@ -1347,14 +1295,14 @@
 							"remote_loading": false,
 							"sublime_auto_complete": true,
 							"synced": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

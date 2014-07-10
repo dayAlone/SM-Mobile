@@ -11,14 +11,6 @@ setHeight = ()->
 
 size = ()->
 	setHeight()
-	$('#catalog .item > .item-content').width ()->
-		$(this).parents('.item').width()-10
-	if not container
-		container = $('#catalog > .content .elements').imagesLoaded ()->
-			$(this).isotope
-				itemSelector: '.item'
-	else
-		container.isotope('layout')
 
 animate = (el, eff, act, out)->
 	if act == 'show'
@@ -28,6 +20,18 @@ animate = (el, eff, act, out)->
 		if act == 'hide'
 			$(el).hide()
 
+init =()->
+	params = {
+		center: [55.747044, 37.664958]
+		zoom: 16
+	}
+	myMap = new ymaps.Map "map", params
+	myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+    }, {
+        preset: 'islands#redDotIcon'
+    })
+	myMap.geoObjects.add(myPlacemark)
+
 $(document).ready ->
 
 	FastClick.attach(document.body);
@@ -36,6 +40,11 @@ $(document).ready ->
 
 	$('body').imagesLoaded ()->
 		size()
+
+	ymaps.ready(init);
+
+	
+
 
 	$('.bar a.trigger').on 'click', (e)->
 		$('body').toggleClass('open-side')
@@ -57,17 +66,40 @@ $(document).ready ->
 
 	$('.popup .bar .back').on 'click ', (e)->
 		parent = '#'+$(this).parents('.block').attr('id')
-		console.log(parent)
 		animate parent, 'slideOutRight', 'hide'
+		e.preventDefault()
+
+	$('.switcher a').on 'click', (e)->
+		$(this).parents('.switcher').find('a').removeClass 'active'
+		$(this).addClass 'active'
+		parent = $(this).attr('href')
+		if $(parent).is ':hidden'
+			$(this).parents('.block').find(".switch-item:not(.main, #{parent})").hide()
+			animate parent, 'fadeInDown', 'show'
 		e.preventDefault()
 
 	$('a.toggle').on 'click ', (e)->
 		parent = $(this).attr('href')
-		console.log parent
-		animate parent, 'slideInRight', 'show'
+		if parent == '#order' && $(this).hasClass('one-click')
+			$('.switcher a[href="#short-order"]').trigger 'click'
+		if $(this).parents('#bottom-nav').length > 0
+			if $(parent).is ':hidden'
+				animate parent, 'fadeInDown', 'show'
+			if $(".block:visible:not(.main, #{parent})").length > 0
+				animate ".block:visible:not(.main, #{parent})", 'fadeOutUp', 'hide'
+			$('#bottom-nav a.active').removeClass 'active'
+			$(this).addClass 'active'
+		else
+			animate parent, 'slideInRight', 'show'
 		e.preventDefault()
 
 	$('input[type=radio]').iCheck();
+
+	$('a.buy').on 'click', (e)->
+		val = parseInt($('#bottom-nav a[href="#cart"] .counter').text())
+		$('#bottom-nav a[href="#cart"] .counter').text(val+1)
+		animate '#bottom-nav a[href="#cart"] .counter', 'fadeInUp', 'show'
+		e.preventDefault()
 
 	$('.block .content').on 'scroll', ()->
 		scroll = $(this).scrollTop()
@@ -80,16 +112,20 @@ $(document).ready ->
 
 		fade = $(this).parent().find('.bottom-fade')
 		pos = scroll + $(window).height()
-		height = $(this).find('.elements').height()
+		height = $(this).find('.elements').height() + $(this).find('.fotorama').height() + parseInt($(this).css('padding-top').split('px')[0])
 
 		if($(this).parents('.block').attr('id')=="cart")
-			height += fade.height()
-		if height < pos
+			height += parseInt($(this).css('padding-bottom').split('px')[0]) - 10
+
+		if height < pos || ($(this).parents('.block').attr('id') == 'product' && scroll > 50)
 			fade.addClass('on') if !fade.hasClass('on')
 		else
 			fade.removeClass('on')
 
 	x = undefined
+	delay 400, ()->
+		window.scrollTo(0,1);
+		size()
 	$(window).resize ->
 		clearTimeout(x)
 		x = delay 400, ()->

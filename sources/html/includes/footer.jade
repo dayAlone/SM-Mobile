@@ -1,4 +1,30 @@
+#bottom-nav
+	.row.center
+		.col-xs-3
+			a(href="#catalog").active.toggle
+				include ../../../public_html/layout/images/svg/menu-catalog.svg
+				br
+				| Каталог товаров
+		.col-xs-3
+			a(href="#cart").toggle
+				include ../../../public_html/layout/images/svg/menu-cart.svg
+				br
+				| Корзина
+				span.counter 0
+		.col-xs-3
+			a(href="#profile").toggle
+				include ../../../public_html/layout/images/svg/menu-profile.svg
+				br
+				| Личный кабинет
+		.col-xs-3
+			a(href="#contacts").toggle
+				include ../../../public_html/layout/images/svg/menu-contacts.svg
+				br
+				| Контакты
 .scroll-wrap
-script(type="text/javascript", src="/layout/js/frontend.js")
+
 </body>
 </html>
+script(type="text/javascript", src="/layout/js/frontend.js", async)
+link(href="//fnt.webink.com/wfs/webink.css/?project=3601473F-859F-4535-BB08-4483C83B84D5&fonts=E2760A8D-7C6C-F53E-5395-BE9CDB1B4178:f=CirceWeb-Light,A6D35641-6598-78D4-C742-D050FEFAC82C:f=CirceWeb-Bold,C33C035F-AE6C-0565-A037-3797D41C2B18:f=CirceWeb-ExtraLight,227F9941-44EA-CCB4-933C-BE44A0BEC7FA:f=CirceWeb-ExtraBold,5D3863ED-56C0-05C2-6E9D-B78930F6FC51:f=CirceWeb-Regular", rel="stylesheet", type="text/css")
+link(href="/layout/css/frontend.css", rel="stylesheet")

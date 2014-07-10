@@ -1,6 +1,5 @@
 include includes/header
-- var s = 'string';
-#catalog.block
+#catalog.block.main
 	.bar
 		.container-fluid
 			.row
@@ -10,6 +9,7 @@ include includes/header
 				.col-xs-8.center
 					a.logo(href="/")
 						include ../../public_html/layout/images/svg/logo.svg
+			//	
 				.col-xs-2.right
 					a.toggle.cart(href="#cart")
 						include ../../public_html/layout/images/svg/cart.svg
@@ -23,17 +23,18 @@ include includes/header
 			.elements
 				each item in products
 					.item
-						.item-content
-							a.toggle.image(href="#product",style="background-image:url(#{item.image}); #{item.bsize ? 'background-size: cover' : ''}")
-							.wrap
-								a.name(href="#")= item.name
+						.row
+							.col-xs-4.center
+								a.toggle.image(href="#product",style="background-image:url(#{item.image}); #{item.bsize ? 'background-size: cover' : ''}")
+							.col-xs-8
+								a.name(href="#product").toggle= item.name
 								.row
-									.col-xs-6
+									.col-xs-5
 										.price
 											nobr
 												= item.price
 												include ../../public_html/layout/images/svg/currency.svg
-									.col-xs-6
+									.col-xs-7
 										a.buy(href="#")
 											.content В корзину
 	.bottom-fade
